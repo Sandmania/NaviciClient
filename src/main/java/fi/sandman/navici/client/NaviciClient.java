@@ -54,7 +54,7 @@ public final class NaviciClient {
 	private Properties properties;
 	private static NaviciClient nc;
 	private static City city;
-	
+
 	private static final String SERVICE_URL = ".serviceUrl";
 	
 	/**
@@ -314,5 +314,13 @@ public final class NaviciClient {
 			}
 		}
 		return loc;
+	}
+	
+	public static City getCity() {
+		return city;
+	}
+
+	public static void setCity(City city) {
+		NaviciClient.city = city;
 	}
 }
