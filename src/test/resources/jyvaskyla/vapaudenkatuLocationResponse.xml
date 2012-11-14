@@ -1,0 +1,30 @@
+<navici_response>
+<ajax_response_object object_id="4">
+
+<Response version="0.95.0001" requestID="0" >
+<LocationResponseList numberOfGeocodedAddresses="1" status="0" >
+<GeocodedAddress locationType="street" locationId="51500" >
+<Point >
+<pos >3434306.500000 6903697.000000</pos>
+</Point>
+
+<BoundingBox >
+<pos >3434306.250000 6903697.000000</pos>
+
+<pos >3435771.000000 6905237.500000</pos>
+</BoundingBox>
+
+<Address countryCode="FI" >
+<StreetAddress >
+<Street language="FI" locationId="51500" >Vapaudenkatu</Street>
+</StreetAddress>
+
+<Place locationId="179" type="Municipality" >Jyv&#228;skyl&#228;</Place>
+</Address>
+
+<GeocodeMatchCode matchType="All" accuracy="1.000" />
+</GeocodedAddress>
+</LocationResponseList>
+</Response>
+</ajax_response_object>
+</navici_response>

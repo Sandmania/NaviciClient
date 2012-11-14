@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+					<ROUTE from="start" to="end" shapefile="perdita_17011_212020_2_874_0"
+						xmin="3434675.429" ymin="6904603.500" xmax="3436374.000" ymax="6910245.000">
+						<LENGTH time="24.201" dist="7865.188" />
+						<SERVICE id="113" code="NT.37477" company_id="1">
+							<NAME lang="1"
+								val="Ajetaan reittiä: Mustalammentie - Mäyrämäentie - Keltinmäentie - Ronsuntaipaleentie - Länsiväylä -  Keskussairaalantie - Rautpohjankatu - Voionmaankatu - Vapaudenkatu - Kalevankatu - Yliopistonkatu - Väinönkatu - Sepänkatu - Rajakatu - Taulumäentie - Lahjaharjuntie - Tyyppäläntie - Ritopohjantie - Heikkilä - Matinmäentie - Lehtoniemen th." />
+							<NAME lang="2"
+								val="Kör rute: Mustalammentie - Mäyrämäentie - Keltinmäentie - Ronsuntaipaleentie - Länsiväylä -  Keskussairaalantie - Rautpohjankatu - Voionmaankatu - Vapaudenkatu - Väinönkatu - Sepänkatu  Rajakatu - Taulumäentie - Lahjaharjuntie - Tyyppäläntie - Ritopohjantie - Heikkilä - Matinmäentie - Lehtoniemen th." />
+							<NAME lang="3"
+								val="Route: Mustalammentie - Mäyrämäentie - Keltinmäentie - Ronsuntaipaleentie - Länsiväylä -  Keskussairaalantie - Rautpohjankatu - Voionmaankatu - Vapaudenkatu - Väinönkatu - Sepänkatu  Rajakatu - Taulumäentie - Lahjaharjuntie - Tyyppäläntie - Ritopohjantie - Heikkilä - Matinmäentie - Lehtoniemen th." />
+							<ISA id="2764" code="DEPARTURE" />
+							<ISA id="2767" code="DEPARTURE.NOTICE" />
+						</SERVICE>
+					</ROUTE>

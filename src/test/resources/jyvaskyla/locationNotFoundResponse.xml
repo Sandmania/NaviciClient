@@ -1,0 +1,9 @@
+<navici_response>
+	<ajax_response_object object_id="4">
+
+		<Response version="0.95.0001" requestID="0">
+			<LocationResponseList numberOfGeocodedAddresses="0"
+				status="0" />
+		</Response>
+	</ajax_response_object>
+</navici_response>

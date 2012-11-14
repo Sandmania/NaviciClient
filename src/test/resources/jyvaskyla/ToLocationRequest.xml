@@ -1,0 +1,13 @@
+<navici_request>
+	<ajax_request_object object_id="4" service="Geocoding">
+		<Request methodName="LocationRequest" requestID="0"
+			maximumResponses="30">
+			<LocationRequest>
+				<FreeFormLocationName>Palokanorsi</FreeFormLocationName>
+				<Address>
+					<Place type="Municipality" matchMethod="All" locationIds="179,180,277,500"></Place>
+				</Address>
+			</LocationRequest>
+		</Request>
+	</ajax_request_object>
+</navici_request>

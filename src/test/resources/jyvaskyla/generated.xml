@@ -1,0 +1,11 @@
+<ROUTE>
+   <LENGTH time="24.201" dist="7865.188"/>
+   <SERVICE id="113" code="NT.37477" company_id="1">
+      <NAME lang="1" val="val"/>
+      <NAME lang="2" val="val"/>
+   </SERVICE>
+   <SERVICE id="2400" code="DT.l" company_id="1">
+      <NAME lang="1" val="val"/>
+      <NAME lang="2" val="val"/>
+   </SERVICE>
+</ROUTE>

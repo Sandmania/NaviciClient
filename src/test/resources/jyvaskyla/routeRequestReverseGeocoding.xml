@@ -1,0 +1,15 @@
+<navici_request>
+	<ajax_request_object object_id="1" service="RouteRequests">
+		<get_route id="0" language="fi" TimeDirection="forward"
+			Date="20111026" Time="1929" WalkSpeed="70" MaxWalk="1500"
+			RoutingMethod="default" ChangeMargin="3" NumberRoutes="5"
+			ExcludedLines="">
+			<output type="image_layer_objects" />
+			<output type="gui_objects" />
+			<location order="0" x="3429723.876219" y="6903557.074394"
+				name="null" city="null" />
+			<location order="1" x="3430583.7737640003" y="6903795.199868"
+				name="null" city="null" />
+		</get_route>
+	</ajax_request_object>
+</navici_request>

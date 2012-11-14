@@ -1,0 +1,109 @@
+<navici_response>
+	<ajax_response_object object_id="4">
+
+		<Response version="0.95.0001" requestID="0">
+			<LocationResponseList numberOfGeocodedAddresses="5"
+				status="0">
+				<POI locationId="5317791" poiClassId="10" POIName="Palokanorsi 1">
+					<Point>
+						<pos>3433577.000000 6909970.000000</pos>
+					</Point>
+
+					<BoundingBox>
+						<pos>3433577.000000 6909970.000000</pos>
+
+						<pos>3433577.000000 6909970.000000</pos>
+					</BoundingBox>
+
+					<Address countryCode="FI">
+						<Place locationId="179" type="Municipality">Jyv&#228;skyl&#228;
+						</Place>
+					</Address>
+
+					<GeocodeMatchCode matchType="All" accuracy="1.000" />
+				</POI>
+
+				<POI locationId="5317819" poiClassId="10" POIName="Palokanorsi 22">
+					<Point>
+						<pos>3433507.000000 6910046.000000</pos>
+					</Point>
+
+					<BoundingBox>
+						<pos>3433507.000000 6910046.000000</pos>
+
+						<pos>3433507.000000 6910046.000000</pos>
+					</BoundingBox>
+
+					<Address countryCode="FI">
+						<Place locationId="179" type="Municipality">Jyv&#228;skyl&#228;
+						</Place>
+					</Address>
+
+					<GeocodeMatchCode matchType="All" accuracy="1.000" />
+				</POI>
+
+				<POI locationId="5317681" poiClassId="10" POIName="Palokanorsi 2">
+					<Point>
+						<pos>3433391.000000 6909910.000000</pos>
+					</Point>
+
+					<BoundingBox>
+						<pos>3433391.000000 6909910.000000</pos>
+
+						<pos>3433391.000000 6909910.000000</pos>
+					</BoundingBox>
+
+					<Address countryCode="FI">
+						<Place locationId="179" type="Municipality">Jyv&#228;skyl&#228;
+						</Place>
+					</Address>
+
+					<GeocodeMatchCode matchType="All" accuracy="1.000" />
+				</POI>
+
+				<GeocodedAddress locationType="street" locationId="52481">
+					<Point>
+						<pos>3434007.750000 6910160.500000</pos>
+					</Point>
+
+					<BoundingBox>
+						<pos>3433492.250000 6909938.000000</pos>
+
+						<pos>3434542.750000 6910502.000000</pos>
+					</BoundingBox>
+
+					<Address countryCode="FI">
+						<StreetAddress>
+							<Street language="FI" locationId="52481">Palokanorsi
+							</Street>
+						</StreetAddress>
+
+						<Place locationId="180" type="Municipality">Jyv&#228;skyl&#228;n
+							Mlk</Place>
+					</Address>
+
+					<GeocodeMatchCode matchType="All" accuracy="1.000" />
+				</GeocodedAddress>
+
+				<POI locationId="5317752" poiClassId="10" POIName="Palokanorsi">
+					<Point>
+						<pos>3433507.000000 6910046.000000</pos>
+					</Point>
+
+					<BoundingBox>
+						<pos>3433507.000000 6910046.000000</pos>
+
+						<pos>3433507.000000 6910046.000000</pos>
+					</BoundingBox>
+
+					<Address countryCode="FI">
+						<Place locationId="179" type="Municipality">Jyv&#228;skyl&#228;
+						</Place>
+					</Address>
+
+					<GeocodeMatchCode matchType="All" accuracy="1.000" />
+				</POI>
+			</LocationResponseList>
+		</Response>
+	</ajax_response_object>
+</navici_response>

@@ -1,0 +1,13 @@
+<navici_request>
+	<ajax_request_object object_id="4" service="Geocoding">
+		<Request methodName="LocationRequest" requestID="0"
+			maximumResponses="30">
+			<LocationRequest>
+				<FreeFormLocationName>keskustie</FreeFormLocationName>
+				<Address>
+					<Place type="Municipality" matchMethod="All" locationIds="297,749"></Place>
+				</Address>
+			</LocationRequest>
+		</Request>
+	</ajax_request_object>
+</navici_request>

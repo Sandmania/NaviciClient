@@ -1,0 +1,421 @@
+<navici_response>
+<ajax_response_object object_id="1">
+<route_response id="7" >
+<image_layer_objects><route shape="/opt/karttad/shapes/perdita_17011_222419_0_435_0" xmin="3434823.230" ymin="6904503.222" xmax="3435831.429" ymax="6905333.000" /><route shape="/opt/karttad/shapes/perdita_17011_222419_0_435_1" xmin="3434823.230" ymin="6904603.500" xmax="3435831.429" ymax="6905333.000" /><route shape="/opt/karttad/shapes/perdita_17011_222419_0_435_2" xmin="3434823.230" ymin="6904503.222" xmax="3435831.429" ymax="6905333.000" /><route shape="/opt/karttad/shapes/perdita_17011_222419_0_435_3" xmin="3434823.230" ymin="6904503.222" xmax="3435831.429" ymax="6905333.000" /><route shape="/opt/karttad/shapes/perdita_17011_222419_0_435_4" xmin="3434823.230" ymin="6904503.222" xmax="3435831.429" ymax="6905333.000" /></image_layer_objects><gui_objects><MTRXML version="1.0">
+    <ROUTE from="start" to="end" shapefile="perdita_17011_222419_0_435_0" xmin="3434823.230" ymin="6904503.222" xmax="3435831.429" ymax="6905333.000">
+        <LENGTH time="9.654" dist="1486.519"/>
+        <SERVICE id="2400" code="DT.l" company_id="1">
+            <NAME lang="1" val="paikallisliikenne"/>
+            <NAME lang="2" val="lokatrafik"/>
+            <NAME lang="3" val="local trafic"/>
+            <ISA id="2769" code="UNCLASSIFIED"/>
+        </SERVICE>
+        <SERVICE id="2720" code="NT.46556" company_id="1">
+            <NAME lang="1" val="Ajetaan reittiä: Vapaudenkatu  Tourulantie  Vaajakoskentie  Halssilanrinne  Mesikämmen  Tammitie  Asmalammentie  Sulunperäntie  Urheilutie  Panda."/>
+            <NAME lang="2" val="Kör ruten: Vapaudenkatu  Tourulantie  Vaajakoskentie  Halssilanrinne  Mesikämmen  Tammitie  Asmalammentie  Sulunperäntie  Urheilutie  Panda."/>
+            <NAME lang="3" val="Route: Vapaudenkatu  Tourulantie  Vaajakoskentie  Halssilanrinne  Mesikämmen  Tammitie  Asmalammentie  Sulunperäntie  Urheilutie  Panda."/>
+            <ISA id="2764" code="DEPARTURE"/>
+            <ISA id="2767" code="DEPARTURE.NOTICE"/>
+        </SERVICE>
+        <POINT uid="start" x="3434823.2" y="6904603.5">
+            <ARRIVAL date="20111022" time="1208"/>
+            <DEPARTURE date="20111022" time="1209"/>
+        </POINT>
+        <WALK>
+            <LENGTH time="6.654" dist="472.913"/>
+            <POINT uid="start" x="3434823.2" y="6904603.5">
+                <ARRIVAL date="20111022" time="1208"/>
+                <DEPARTURE date="20111022" time="1209"/>
+            </POINT>
+            <MAPLOC x="3434887.4" y="6904669.5" type="12131">
+                <ARRIVAL date="20111022" time="1209"/>
+                <DEPARTURE date="20111022" time="1210"/>
+                <NAME lang="1" val="Kilpisenkatu"/>
+            </MAPLOC>
+            <MAPLOC x="3435055.7" y="6904503.2" type="12131">
+                <ARRIVAL date="20111022" time="1213"/>
+                <DEPARTURE date="20111022" time="1214"/>
+                <NAME lang="1" val="Vapaudenkatu"/>
+            </MAPLOC>
+            <STOP code="1:Keskusta#20945.103" x="3435156.0" y="6904597.0" id="171">
+                <ARRIVAL date="20111022" time="1215"/>
+                <DEPARTURE date="20111022" time="1215"/>
+                <NAME lang="1" val="Jyväskylä Keskusta 4"/>
+                <XTRA name="city_id" val="179"/>
+            </STOP>
+        </WALK>
+        <LINE id="187" code="3" type="2" mobility="0">
+            <SREF id="2400" from="1" to="24"/>
+            <SREF id="2720" from="1" to="24"/>
+            <LENGTH time="3.000" dist="1000.942"/>
+            <STOP code="1:Keskusta#20945.103" x="3435156.0" y="6904597.0" id="171" ord="2">
+                <ARRIVAL date="20111022" time="1215"/>
+                <DEPARTURE date="20111022" time="1215"/>
+                <NAME lang="1" val="Jyväskylä Keskusta 4"/>
+                <XTRA name="city_id" val="179"/>
+            </STOP>
+            <STOP code="1:N/A#20842.10348" x="3435343.0" y="6904784.0" id="1023">
+                <ARRIVAL date="20111022" time="1216"/>
+                <DEPARTURE date="20111022" time="1216"/>
+                <NAME lang="1" val="Urhonkatu 2"/>
+                <XTRA name="city_id" val="179"/>
+            </STOP>
+            <STOP code="1:N/A#20841.10351" x="3435671.0" y="6905092.0" id="1150">
+                <ARRIVAL date="20111022" time="1218"/>
+                <DEPARTURE date="20111022" time="1218"/>
+                <NAME lang="1" val="Tourunsilta 2"/>
+                <XTRA name="city_id" val="179"/>
+            </STOP>
+            <STOP code="1:Tourula#2503.10352" x="3435826.0" y="6905333.0" id="1361" ord="5">
+                <ARRIVAL date="20111022" time="1218"/>
+                <DEPARTURE date="20111022" time="1218"/>
+                <NAME lang="1" val="Tourula 2"/>
+                <XTRA name="city_id" val="179"/>
+            </STOP>
+        </LINE>
+        <WALK>
+            <LENGTH time="0.000" dist="12.664"/>
+            <STOP code="1:Tourula#2503.10352" x="3435826.0" y="6905333.0" id="1361">
+                <ARRIVAL date="20111022" time="1218"/>
+                <DEPARTURE date="20111022" time="1218"/>
+                <NAME lang="1" val="Tourula 2"/>
+                <XTRA name="city_id" val="179"/>
+            </STOP>
+            <POINT uid="end" x="3435826.0" y="6905333.0">
+                <ARRIVAL date="20111022" time="1218"/>
+                <DEPARTURE date="20111022" time="1218"/>
+            </POINT>
+        </WALK>
+        <POINT uid="end" x="3435826.0" y="6905333.0">
+            <ARRIVAL date="20111022" time="1218"/>
+            <DEPARTURE date="20111022" time="1218"/>
+        </POINT>
+    </ROUTE>
+    <ROUTE from="start" to="end" shapefile="perdita_17011_222419_0_435_1" xmin="3434823.230" ymin="6904603.500" xmax="3435831.429" ymax="6905333.000">
+        <LENGTH time="20.171" dist="1411.988"/>
+        <POINT uid="start" x="3434823.2" y="6904603.5">
+            <ARRIVAL date="20111022" time="1209"/>
+            <DEPARTURE date="20111022" time="1210"/>
+        </POINT>
+        <WALK>
+            <LENGTH time="20.171" dist="1411.988"/>
+            <POINT uid="start" x="3434823.2" y="6904603.5">
+                <ARRIVAL date="20111022" time="1209"/>
+                <DEPARTURE date="20111022" time="1210"/>
+            </POINT>
+            <MAPLOC x="3434887.4" y="6904669.5" type="12131">
+                <ARRIVAL date="20111022" time="1211"/>
+                <DEPARTURE date="20111022" time="1212"/>
+                <NAME lang="1" val="Kilpisenkatu"/>
+            </MAPLOC>
+            <MAPLOC x="3434950.2" y="6904621.2" type="12132">
+                <ARRIVAL date="20111022" time="1212"/>
+                <DEPARTURE date="20111022" time="1213"/>
+                <NAME lang="1" val="Kauppakatu"/>
+            </MAPLOC>
+            <MAPLOC x="3435226.9" y="6904907.6" type="12132">
+                <ARRIVAL date="20111022" time="1217"/>
+                <DEPARTURE date="20111022" time="1218"/>
+                <NAME lang="1" val="Ilmarisenkatu"/>
+            </MAPLOC>
+            <MAPLOC x="3435529.5" y="6905195.8" type="12131">
+                <ARRIVAL date="20111022" time="1223"/>
+                <DEPARTURE date="20111022" time="1224"/>
+                <NAME lang="1" val="Tourukatu"/>
+            </MAPLOC>
+            <MAPLOC x="3435647.4" y="6905128.0" type="12314">
+                <ARRIVAL date="20111022" time="1225"/>
+                <DEPARTURE date="20111022" time="1226"/>
+            </MAPLOC>
+            <MAPLOC x="3435661.0" y="6905122.8" type="12122">
+                <ARRIVAL date="20111022" time="1226"/>
+                <DEPARTURE date="20111022" time="1227"/>
+                <NAME lang="1" val="Vapaudenkatu"/>
+            </MAPLOC>
+            <MAPLOC x="3435766.6" y="6905237.7" type="12122">
+                <ARRIVAL date="20111022" time="1228"/>
+                <DEPARTURE date="20111022" time="1229"/>
+                <NAME lang="1" val="Tourulantie"/>
+            </MAPLOC>
+            <POINT uid="end" x="3435826.0" y="6905333.0">
+                <ARRIVAL date="20111022" time="1229"/>
+                <DEPARTURE date="20111022" time="1230"/>
+            </POINT>
+        </WALK>
+        <POINT uid="end" x="3435826.0" y="6905333.0">
+            <ARRIVAL date="20111022" time="1229"/>
+            <DEPARTURE date="20111022" time="1230"/>
+        </POINT>
+    </ROUTE>
+    <ROUTE from="start" to="end" shapefile="perdita_17011_222419_0_435_2" xmin="3434823.230" ymin="6904503.222" xmax="3435831.429" ymax="6905333.000">
+        <LENGTH time="10.363" dist="1480.721"/>
+        <SERVICE id="101" code="NT.55583" company_id="1">
+            <NAME lang="1" val="Ajetaan reittiä: Palokankeskus - Ruokkentie  Laajavuorentie  Vesangantie - Voionmaankatu  Vaasankatu  Vapaudenkatu  Tourulantie  Seppäläntie  Ahjokatu  Kangasvuorentie - Nevakatu  Suluntie."/>
+            <NAME lang="2" val="Kör rute: Palokankeskus - Ruokkentie  Laajavuorentie  Vesangantie - Voionmaankatu  Vaasankatu  Vapaudenkatu  Tourulantie  Seppäläntie  Ahjokatu  Kangasvuorentie - Nevakatu  Suluntie."/>
+            <NAME lang="3" val="Route: Palokankeskus - Ruokkentie  Laajavuorentie  Vesangantie - Voionmaankatu  Vaasankatu  Vapaudenkatu  Tourulantie  Seppäläntie  Ahjokatu  Kangasvuorentie - Nevakatu  Suluntie."/>
+            <ISA id="2764" code="DEPARTURE"/>
+            <ISA id="2767" code="DEPARTURE.NOTICE"/>
+        </SERVICE>
+        <SERVICE id="2400" code="DT.l" company_id="1">
+            <NAME lang="1" val="paikallisliikenne"/>
+            <NAME lang="2" val="lokatrafik"/>
+            <NAME lang="3" val="local trafic"/>
+            <ISA id="2769" code="UNCLASSIFIED"/>
+        </SERVICE>
+        <POINT uid="start" x="3434823.2" y="6904603.5">
+            <ARRIVAL date="20111022" time="1223"/>
+            <DEPARTURE date="20111022" time="1224"/>
+        </POINT>
+        <WALK>
+            <LENGTH time="6.363" dist="446.503"/>
+            <POINT uid="start" x="3434823.2" y="6904603.5">
+                <ARRIVAL date="20111022" time="1223"/>
+                <DEPARTURE date="20111022" time="1224"/>
+            </POINT>
+            <MAPLOC x="3434887.4" y="6904669.5" type="12131">
+                <ARRIVAL date="20111022" time="1224"/>
+                <DEPARTURE date="20111022" time="1225"/>
+                <NAME lang="1" val="Kilpisenkatu"/>
+            </MAPLOC>
+            <MAPLOC x="3435055.7" y="6904503.2" type="12131">
+                <ARRIVAL date="20111022" time="1228"/>
+                <DEPARTURE date="20111022" time="1229"/>
+                <NAME lang="1" val="Vapaudenkatu"/>
+            </MAPLOC>
+            <STOP code="1:Keskusta#20945.105" x="3435136.0" y="6904588.0" id="105">
+                <ARRIVAL date="20111022" time="1230"/>
+                <DEPARTURE date="20111022" time="1230"/>
+                <NAME lang="1" val="Jyväskylä Keskusta 3"/>
+                <XTRA name="city_id" val="179"/>
+            </STOP>
+        </WALK>
+        <LINE id="735" code="25K" type="1" mobility="0">
+            <SREF id="101" from="1" to="34"/>
+            <SREF id="2400" from="1" to="34"/>
+            <LENGTH time="4.000" dist="1021.554"/>
+            <STOP code="1:Keskusta#20945.105" x="3435136.0" y="6904588.0" id="105" ord="19">
+                <ARRIVAL date="20111022" time="1230"/>
+                <DEPARTURE date="20111022" time="1230"/>
+                <NAME lang="1" val="Jyväskylä Keskusta 3"/>
+                <XTRA name="city_id" val="179"/>
+            </STOP>
+            <STOP code="1:N/A#20842.10348" x="3435343.0" y="6904784.0" id="1023">
+                <ARRIVAL date="20111022" time="1231"/>
+                <DEPARTURE date="20111022" time="1231"/>
+                <NAME lang="1" val="Urhonkatu 2"/>
+                <XTRA name="city_id" val="179"/>
+            </STOP>
+            <STOP code="1:N/A#20841.10351" x="3435671.0" y="6905092.0" id="1150">
+                <ARRIVAL date="20111022" time="1233"/>
+                <DEPARTURE date="20111022" time="1233"/>
+                <NAME lang="1" val="Tourunsilta 2"/>
+                <XTRA name="city_id" val="179"/>
+            </STOP>
+            <STOP code="1:Tourula#2503.10352" x="3435826.0" y="6905333.0" id="1361" ord="22">
+                <ARRIVAL date="20111022" time="1234"/>
+                <DEPARTURE date="20111022" time="1234"/>
+                <NAME lang="1" val="Tourula 2"/>
+                <XTRA name="city_id" val="179"/>
+            </STOP>
+        </LINE>
+        <WALK>
+            <LENGTH time="0.000" dist="12.664"/>
+            <STOP code="1:Tourula#2503.10352" x="3435826.0" y="6905333.0" id="1361">
+                <ARRIVAL date="20111022" time="1234"/>
+                <DEPARTURE date="20111022" time="1234"/>
+                <NAME lang="1" val="Tourula 2"/>
+                <XTRA name="city_id" val="179"/>
+            </STOP>
+            <POINT uid="end" x="3435826.0" y="6905333.0">
+                <ARRIVAL date="20111022" time="1234"/>
+                <DEPARTURE date="20111022" time="1234"/>
+            </POINT>
+        </WALK>
+        <POINT uid="end" x="3435826.0" y="6905333.0">
+            <ARRIVAL date="20111022" time="1234"/>
+            <DEPARTURE date="20111022" time="1234"/>
+        </POINT>
+    </ROUTE>
+    <ROUTE from="start" to="end" shapefile="perdita_17011_222419_0_435_3" xmin="3434823.230" ymin="6904503.222" xmax="3435831.429" ymax="6905333.000">
+        <LENGTH time="10.398" dist="1498.725"/>
+        <SERVICE id="387" code="NT.35984" company_id="1">
+            <NAME lang="1" val="Ajetaan reittiä: Viherlandia - Kuokkalantie - Sulkulantie - Lampitie - Hämeenlahdentie - Isokatu - Sulkulantie - Syöttäjänkatu - Pohjanlahdentie - Kekkolantie - Toritie - Pohjantie - Survontie - 9-tie - Hannikaisenkatu - Vaasankatu - Vapaudenkatu - Tourula."/>
+            <ISA id="2764" code="DEPARTURE"/>
+            <ISA id="2767" code="DEPARTURE.NOTICE"/>
+        </SERVICE>
+        <SERVICE id="2400" code="DT.l" company_id="1">
+            <NAME lang="1" val="paikallisliikenne"/>
+            <NAME lang="2" val="lokatrafik"/>
+            <NAME lang="3" val="local trafic"/>
+            <ISA id="2769" code="UNCLASSIFIED"/>
+        </SERVICE>
+        <POINT uid="start" x="3434823.2" y="6904603.5">
+            <ARRIVAL date="20111022" time="1228"/>
+            <DEPARTURE date="20111022" time="1229"/>
+        </POINT>
+        <WALK>
+            <LENGTH time="5.398" dist="395.682"/>
+            <POINT uid="start" x="3434823.2" y="6904603.5">
+                <ARRIVAL date="20111022" time="1228"/>
+                <DEPARTURE date="20111022" time="1229"/>
+            </POINT>
+            <MAPLOC x="3434887.4" y="6904669.5" type="12131">
+                <ARRIVAL date="20111022" time="1229"/>
+                <DEPARTURE date="20111022" time="1230"/>
+                <NAME lang="1" val="Kilpisenkatu"/>
+            </MAPLOC>
+            <MAPLOC x="3435055.7" y="6904503.2" type="12131">
+                <ARRIVAL date="20111022" time="1233"/>
+                <DEPARTURE date="20111022" time="1234"/>
+                <NAME lang="1" val="Vapaudenkatu"/>
+            </MAPLOC>
+            <STOP code="1:Keskusta#20945.104" x="3435077.0" y="6904551.0" id="1304">
+                <ARRIVAL date="20111022" time="1234"/>
+                <DEPARTURE date="20111022" time="1234"/>
+                <NAME lang="1" val="Jyväskylä Keskusta 1"/>
+                <XTRA name="city_id" val="179"/>
+            </STOP>
+        </WALK>
+        <LINE id="493" code="15" type="1" mobility="0">
+            <SREF id="387" from="1" to="26"/>
+            <SREF id="2400" from="1" to="26"/>
+            <LENGTH time="5.000" dist="1090.379"/>
+            <STOP code="1:Keskusta#20945.104" x="3435077.0" y="6904551.0" id="1304" ord="22">
+                <ARRIVAL date="20111022" time="1234"/>
+                <DEPARTURE date="20111022" time="1234"/>
+                <NAME lang="1" val="Jyväskylä Keskusta 1"/>
+                <XTRA name="city_id" val="179"/>
+            </STOP>
+            <STOP code="1:N/A#20901.10453" x="3435391.0" y="6904854.0" id="1919">
+                <ARRIVAL date="20111022" time="1236"/>
+                <DEPARTURE date="20111022" time="1236"/>
+                <NAME lang="1" val="Urhonkatu 4"/>
+                <XTRA name="city_id" val="179"/>
+            </STOP>
+            <STOP code="1:N/A#20841.10351" x="3435671.0" y="6905092.0" id="1150">
+                <ARRIVAL date="20111022" time="1238"/>
+                <DEPARTURE date="20111022" time="1238"/>
+                <NAME lang="1" val="Tourunsilta 2"/>
+                <XTRA name="city_id" val="179"/>
+            </STOP>
+            <STOP code="1:Tourula#2503.10352" x="3435826.0" y="6905333.0" id="1361" ord="25">
+                <ARRIVAL date="20111022" time="1239"/>
+                <DEPARTURE date="20111022" time="1239"/>
+                <NAME lang="1" val="Tourula 2"/>
+                <XTRA name="city_id" val="179"/>
+            </STOP>
+        </LINE>
+        <WALK>
+            <LENGTH time="0.000" dist="12.664"/>
+            <STOP code="1:Tourula#2503.10352" x="3435826.0" y="6905333.0" id="1361">
+                <ARRIVAL date="20111022" time="1239"/>
+                <DEPARTURE date="20111022" time="1239"/>
+                <NAME lang="1" val="Tourula 2"/>
+                <XTRA name="city_id" val="179"/>
+            </STOP>
+            <POINT uid="end" x="3435826.0" y="6905333.0">
+                <ARRIVAL date="20111022" time="1239"/>
+                <DEPARTURE date="20111022" time="1239"/>
+            </POINT>
+        </WALK>
+        <POINT uid="end" x="3435826.0" y="6905333.0">
+            <ARRIVAL date="20111022" time="1239"/>
+            <DEPARTURE date="20111022" time="1239"/>
+        </POINT>
+    </ROUTE>
+    <ROUTE from="start" to="end" shapefile="perdita_17011_222419_0_435_4" xmin="3434823.230" ymin="6904503.222" xmax="3435831.429" ymax="6905333.000">
+        <LENGTH time="13.650" dist="1550.575"/>
+        <SERVICE id="2400" code="DT.l" company_id="1">
+            <NAME lang="1" val="paikallisliikenne"/>
+            <NAME lang="2" val="lokatrafik"/>
+            <NAME lang="3" val="local trafic"/>
+            <ISA id="2769" code="UNCLASSIFIED"/>
+        </SERVICE>
+        <SERVICE id="2724" code="NT.46766" company_id="1">
+            <NAME lang="1" val="Ajetaan reittiä: Taitoniekantie - Kaivokatu - Vesangantie - Voionmaankatu - Vaasankatu - Vapaudenkatu - Tourulantie - Heikinkatu - Schaumanninkatu - Satama - Siltakatu - Syöttäjänkatu - Pohjanlahdentie - Pohjantie - Sippulantie."/>
+            <NAME lang="2" val="Kör rute: Taitoniekantie - Kaivokatu - Vesangantie - Voionmaankatu - Vaasankatu - Vapaudenkatu - Tourulantie - Heikinkatu - Schaumanninkatu - Satama - Siltakatu - Syöttäjänkatu - Pohjanlahdentie - Pohjantie - Sippulantie."/>
+            <NAME lang="3" val="Route: Taitoniekantie - Kaivokatu - Vesangantie - Voionmaankatu - Vaasankatu - Vapaudenkatu - Tourulantie - Heikinkatu - Schaumanninkatu - Satama - Siltakatu - Syöttäjänkatu - Pohjanlahdentie - Pohjantie - Sippulantie."/>
+            <ISA id="2764" code="DEPARTURE"/>
+            <ISA id="2767" code="DEPARTURE.NOTICE"/>
+        </SERVICE>
+        <POINT uid="start" x="3434823.2" y="6904603.5">
+            <ARRIVAL date="20111022" time="1229"/>
+            <DEPARTURE date="20111022" time="1230"/>
+        </POINT>
+        <WALK>
+            <LENGTH time="5.398" dist="395.682"/>
+            <POINT uid="start" x="3434823.2" y="6904603.5">
+                <ARRIVAL date="20111022" time="1229"/>
+                <DEPARTURE date="20111022" time="1230"/>
+            </POINT>
+            <MAPLOC x="3434887.4" y="6904669.5" type="12131">
+                <ARRIVAL date="20111022" time="1230"/>
+                <DEPARTURE date="20111022" time="1231"/>
+                <NAME lang="1" val="Kilpisenkatu"/>
+            </MAPLOC>
+            <MAPLOC x="3435055.7" y="6904503.2" type="12131">
+                <ARRIVAL date="20111022" time="1234"/>
+                <DEPARTURE date="20111022" time="1235"/>
+                <NAME lang="1" val="Vapaudenkatu"/>
+            </MAPLOC>
+            <STOP code="1:Keskusta#20945.104" x="3435077.0" y="6904551.0" id="1304">
+                <ARRIVAL date="20111022" time="1235"/>
+                <DEPARTURE date="20111022" time="1235"/>
+                <NAME lang="1" val="Jyväskylä Keskusta 1"/>
+                <XTRA name="city_id" val="179"/>
+            </STOP>
+        </WALK>
+        <LINE id="606" code="18" type="1" mobility="0">
+            <SREF id="2400" from="1" to="26"/>
+            <SREF id="2724" from="1" to="26"/>
+            <LENGTH time="3.000" dist="772.501"/>
+            <STOP code="1:Keskusta#20945.104" x="3435077.0" y="6904551.0" id="1304" ord="9">
+                <ARRIVAL date="20111022" time="1235"/>
+                <DEPARTURE date="20111022" time="1235"/>
+                <NAME lang="1" val="Jyväskylä Keskusta 1"/>
+                <XTRA name="city_id" val="179"/>
+            </STOP>
+            <STOP code="1:N/A#20842.10348" x="3435343.0" y="6904784.0" id="1023">
+                <ARRIVAL date="20111022" time="1236"/>
+                <DEPARTURE date="20111022" time="1236"/>
+                <NAME lang="1" val="Urhonkatu 2"/>
+                <XTRA name="city_id" val="179"/>
+            </STOP>
+            <STOP code="1:Heikink#21286.1083" x="3435673.0" y="6905042.0" id="1861" ord="11">
+                <ARRIVAL date="20111022" time="1238"/>
+                <DEPARTURE date="20111022" time="1238"/>
+                <NAME lang="1" val="Heikinkatu 2"/>
+                <XTRA name="city_id" val="179"/>
+            </STOP>
+        </LINE>
+        <WALK>
+            <LENGTH time="5.252" dist="382.391"/>
+            <STOP code="1:Heikink#21286.1083" x="3435673.0" y="6905042.0" id="1861">
+                <ARRIVAL date="20111022" time="1238"/>
+                <DEPARTURE date="20111022" time="1238"/>
+                <NAME lang="1" val="Heikinkatu 2"/>
+                <XTRA name="city_id" val="179"/>
+            </STOP>
+            <MAPLOC x="3435633.7" y="6905095.2" type="12122">
+                <ARRIVAL date="20111022" time="1239"/>
+                <DEPARTURE date="20111022" time="1240"/>
+                <NAME lang="1" val="Vapaudenkatu"/>
+            </MAPLOC>
+            <MAPLOC x="3435766.6" y="6905237.7" type="12122">
+                <ARRIVAL date="20111022" time="1241"/>
+                <DEPARTURE date="20111022" time="1242"/>
+                <NAME lang="1" val="Tourulantie"/>
+            </MAPLOC>
+            <POINT uid="end" x="3435826.0" y="6905333.0">
+                <ARRIVAL date="20111022" time="1243"/>
+                <DEPARTURE date="20111022" time="1244"/>
+            </POINT>
+        </WALK>
+        <POINT uid="end" x="3435826.0" y="6905333.0">
+            <ARRIVAL date="20111022" time="1243"/>
+            <DEPARTURE date="20111022" time="1244"/>
+        </POINT>
+    </ROUTE>
+</MTRXML></gui_objects></route_response>
+</ajax_response_object>
+</navici_response>

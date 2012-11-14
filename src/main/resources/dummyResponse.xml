@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<navici_response>
+	<ajax_response_object object_id="1">
+		<route_response id="1">
+			<image_layer_objects>
+				<route shape="/opt/karttad/shapes/perdita_17011_212020_2_874_0"
+					xmin="3434675.429" ymin="6904603.500" xmax="3436374.000" ymax="6910245.000" />
+				<route shape="/opt/karttad/shapes/perdita_17011_212020_2_874_1"
+					xmin="3434675.429" ymin="6904503.222" xmax="3436374.000" ymax="6910245.000" />
+				<route shape="/opt/karttad/shapes/perdita_17011_212020_2_874_2"
+					xmin="3434675.429" ymin="6904603.500" xmax="3436374.000" ymax="6910245.000" />
+				<route shape="/opt/karttad/shapes/perdita_17011_212020_2_874_3"
+					xmin="3434675.429" ymin="6904503.222" xmax="3436374.000" ymax="6910245.000" />
+				<route shape="/opt/karttad/shapes/perdita_17011_212020_2_874_4"
+					xmin="3434675.429" ymin="6904503.222" xmax="3436580.000" ymax="6910245.000" />
+			</image_layer_objects>
+			<gui_objects>
+				<MTRXML version="1.0">
+					<ROUTE from="start" to="end" shapefile="perdita_17011_212020_2_874_0"
+						xmin="3434675.429" ymin="6904603.500" xmax="3436374.000" ymax="6910245.000">
+						<LENGTH time="24.201" dist="7865.188" />
+						<SERVICE id="113" code="NT.37477" company_id="1">
+							<NAME lang="1"
+								val="Ajetaan reittiä: Mustalammentie - Mäyrämäentie - Keltinmäentie - Ronsuntaipaleentie - Länsiväylä -  Keskussairaalantie - Rautpohjankatu - Voionmaankatu - Vapaudenkatu - Kalevankatu - Yliopistonkatu - Väinönkatu - Sepänkatu - Rajakatu - Taulumäentie - Lahjaharjuntie - Tyyppäläntie - Ritopohjantie - Heikkilä - Matinmäentie - Lehtoniemen th." />
+							<NAME lang="2"
+								val="Kör rute: Mustalammentie - Mäyrämäentie - Keltinmäentie - Ronsuntaipaleentie - Länsiväylä -  Keskussairaalantie - Rautpohjankatu - Voionmaankatu - Vapaudenkatu - Väinönkatu - Sepänkatu  Rajakatu - Taulumäentie - Lahjaharjuntie - Tyyppäläntie - Ritopohjantie - Heikkilä - Matinmäentie - Lehtoniemen th." />
+							<NAME lang="3"
+								val="Route: Mustalammentie - Mäyrämäentie - Keltinmäentie - Ronsuntaipaleentie - Länsiväylä -  Keskussairaalantie - Rautpohjankatu - Voionmaankatu - Vapaudenkatu - Väinönkatu - Sepänkatu  Rajakatu - Taulumäentie - Lahjaharjuntie - Tyyppäläntie - Ritopohjantie - Heikkilä - Matinmäentie - Lehtoniemen th." />
+							<ISA id="2764" code="DEPARTURE" />
+							<ISA id="2767" code="DEPARTURE.NOTICE" />
+						</SERVICE>
+						<SERVICE id="2400" code="DT.l" company_id="1">
+							<NAME lang="1" val="paikallisliikenne" />
+							<NAME lang="2" val="lokatrafik" />
+							<NAME lang="3" val="local trafic" />
+							<ISA id="2769" code="UNCLASSIFIED" />
+						</SERVICE>
+						<POINT uid="start" x="3434823.2" y="6904603.5">
+							<ARRIVAL date="20111012" time="1205" />
+							<DEPARTURE date="20111012" time="1206" />
+						</POINT>
+						<WALK>
+							<LENGTH time="7.687" dist="551.090" />
+							<POINT uid="start" x="3434823.2" y="6904603.5">
+								<ARRIVAL date="20111012" time="1205" />
+								<DEPARTURE date="20111012" time="1206" />
+							</POINT>
+							<MAPLOC x="3434887.4" y="6904669.5" type="12131">
+								<ARRIVAL date="20111012" time="1206" />
+								<DEPARTURE date="20111012" time="1207" />
+								<NAME lang="1" val="Kilpisenkatu" />
+							</MAPLOC>
+							<MAPLOC x="3434829.6" y="6904726.5" type="12131">
+								<ARRIVAL date="20111012" time="1207" />
+								<DEPARTURE date="20111012" time="1208" />
+								<NAME lang="1" val="Yliopistonkatu" />
+							</MAPLOC>
+							<MAPLOC x="3434991.4" y="6904894.4" type="12131">
+								<ARRIVAL date="20111012" time="1211" />
+								<DEPARTURE date="20111012" time="1212" />
+								<NAME lang="1" val="Lyseonkatu" />
+							</MAPLOC>
+							<MAPLOC x="3434982.2" y="6904904.4" type="12131">
+								<ARRIVAL date="20111012" time="1211" />
+								<DEPARTURE date="20111012" time="1212" />
+								<NAME lang="1" val="Yliopistonkatu" />
+							</MAPLOC>
+							<MAPLOC x="3435052.9" y="6904977.1" type="12131">
+								<ARRIVAL date="20111012" time="1212" />
+								<DEPARTURE date="20111012" time="1213" />
+								<NAME lang="1" val="Väinönkatu" />
+							</MAPLOC>
+							<STOP code="1:N/A#20024.10508" x="3435032.0" y="6904979.0"
+								id="484">
+								<ARRIVAL date="20111012" time="1213" />
+								<DEPARTURE date="20111012" time="1213" />
+								<NAME lang="1" val="Jyväskylä Kauppatori 10" />
+								<XTRA name="city_id" val="179" />
+							</STOP>
+						</WALK>
+						<LINE id="172" code="27" type="1" mobility="0">
+							<SREF id="113" from="1" to="58" />
+							<SREF id="2400" from="1" to="58" />
+							<LENGTH time="15.000" dist="7200.949" />
+							<STOP code="1:N/A#20024.10508" x="3435032.0" y="6904979.0"
+								id="484" ord="26">
+								<ARRIVAL date="20111012" time="1213" />
+								<DEPARTURE date="20111012" time="1213" />
+								<NAME lang="1" val="Jyväskylä Kauppatori 10" />
+								<XTRA name="city_id" val="179" />
+							</STOP>
+							<STOP code="1:K-S talo#21090.105" x="3434780.0" y="6905265.0"
+								id="1046">
+								<ARRIVAL date="20111012" time="1214" />
+								<DEPARTURE date="20111012" time="1214" />
+								<NAME lang="1" val="Keski-Suomen talo" />
+								<XTRA name="city_id" val="179" />
+							</STOP>
+							<STOP code="1:N/A#20900.10287" x="3434694.0" y="6905427.0"
+								id="218">
+								<ARRIVAL date="20111012" time="1215" />
+								<DEPARTURE date="20111012" time="1215" />
+								<NAME lang="1" val="Harjun oppilaitos 2" />
+								<XTRA name="city_id" val="179" />
+							</STOP>
+							<STOP code="1:N/A#2494.10505" x="3434983.0" y="6905674.0"
+								id="475">
+								<ARRIVAL date="20111012" time="1215" />
+								<DEPARTURE date="20111012" time="1215" />
+								<NAME lang="1" val="Ammattikorkeakoulu 2" />
+								<XTRA name="city_id" val="179" />
+							</STOP>
+							<STOP code="1:N/A#20899.10502" x="3435221.0" y="6905885.0"
+								id="80">
+								<ARRIVAL date="20111012" time="1216" />
+								<DEPARTURE date="20111012" time="1216" />
+								<NAME lang="1" val="Kunnantalo 2" />
+								<XTRA name="city_id" val="179" />
+							</STOP>
+							<STOP code="1:Taulumäk#2501.1029" x="3435195.0" y="6906244.0"
+								id="346">
+								<ARRIVAL date="20111012" time="1217" />
+								<DEPARTURE date="20111012" time="1217" />
+								<NAME lang="1" val="Taulumäki 2" />
+								<XTRA name="city_id" val="179" />
+							</STOP>
+							<STOP code="1:Lahjahrt#20898.110" x="3435072.0" y="6906469.0"
+								id="1466">
+								<ARRIVAL date="20111012" time="1218" />
+								<DEPARTURE date="20111012" time="1218" />
+								<NAME lang="1" val="Lahjaharjuntie 22" />
+								<XTRA name="city_id" val="179" />
+							</STOP>
+							<STOP code="1:Yläpau#21348.10969" x="3435392.0" y="6906777.0"
+								id="1054">
+								<ARRIVAL date="20111012" time="1218" />
+								<DEPARTURE date="20111012" time="1218" />
+								<NAME lang="1" val="Yläpaula 2" />
+								<XTRA name="city_id" val="179" />
+							</STOP>
+							<STOP code="1:Palonie#21349.1097" x="3435334.0" y="6907088.0"
+								id="1549">
+								<ARRIVAL date="20111012" time="1219" />
+								<DEPARTURE date="20111012" time="1219" />
+								<NAME lang="1" val="Paloniemi 2" />
+								<XTRA name="city_id" val="179" />
+							</STOP>
+							<STOP code="1:Verkkok#21350.1097" x="3435444.0" y="6907349.0"
+								id="819">
+								<ARRIVAL date="20111012" time="1220" />
+								<DEPARTURE date="20111012" time="1220" />
+								<NAME lang="1" val="Verkkokatu 2" />
+								<XTRA name="city_id" val="179" />
+							</STOP>
+							<STOP code="1:Lohikos#21351.1097" x="3435711.0" y="6907497.0"
+								id="459">
+								<ARRIVAL date="20111012" time="1221" />
+								<DEPARTURE date="20111012" time="1221" />
+								<NAME lang="1" val="Lohikoski 2" />
+								<XTRA name="city_id" val="179" />
+							</STOP>
+							<STOP code="1:Nuottak#21352.1097" x="3435824.0" y="6907805.0"
+								id="1455">
+								<ARRIVAL date="20111012" time="1222" />
+								<DEPARTURE date="20111012" time="1222" />
+								<NAME lang="1" val="Nuottakatu 2" />
+								<XTRA name="city_id" val="179" />
+							</STOP>
+							<STOP code="1:Tyyplah#21353.1098" x="3436049.0" y="6907952.0"
+								id="1970">
+								<ARRIVAL date="20111012" time="1222" />
+								<DEPARTURE date="20111012" time="1222" />
+								<NAME lang="1" val="Tyyppälänlahti 2" />
+								<XTRA name="city_id" val="179" />
+							</STOP>
+							<STOP code="1:Lahjah#20897.10290" x="3436310.0" y="6907798.0"
+								id="2054">
+								<ARRIVAL date="20111012" time="1223" />
+								<DEPARTURE date="20111012" time="1223" />
+								<NAME lang="1" val="Lahjaharju 2" />
+								<XTRA name="city_id" val="179" />
+							</STOP>
+							<STOP code="1:LohikTH#21355.1100" x="3436374.0" y="6908016.0"
+								id="1690">
+								<ARRIVAL date="20111012" time="1224" />
+								<DEPARTURE date="20111012" time="1224" />
+								<NAME lang="1" val="Lohikoski Th 2" />
+								<XTRA name="city_id" val="179" />
+							</STOP>
+							<STOP code="1:Heinlamt#21354.109" x="3436103.0" y="6908360.0"
+								id="1332">
+								<ARRIVAL date="20111012" time="1224" />
+								<DEPARTURE date="20111012" time="1224" />
+								<NAME lang="1" val="Heinälammentie 2" />
+								<XTRA name="city_id" val="179" />
+							</STOP>
+							<STOP code="1:Heinäo#21356.10983" x="3435813.0" y="6908552.0"
+								id="520">
+								<ARRIVAL date="20111012" time="1225" />
+								<DEPARTURE date="20111012" time="1225" />
+								<NAME lang="1" val="Heinäoja 2" />
+								<XTRA name="city_id" val="179" />
+							</STOP>
+							<STOP code="1:Ritonie#21357.1098" x="3435470.0" y="6908854.0"
+								id="224">
+								<ARRIVAL date="20111012" time="1226" />
+								<DEPARTURE date="20111012" time="1226" />
+								<NAME lang="1" val="Ritoniemi 2" />
+								<XTRA name="city_id" val="179" />
+							</STOP>
+							<STOP code="1:Ritopohj#2559.1098" x="3435285.0" y="6909153.0"
+								id="666">
+								<ARRIVAL date="20111012" time="1226" />
+								<DEPARTURE date="20111012" time="1226" />
+								<NAME lang="1" val="Ritopohja 2" />
+								<XTRA name="city_id" val="179" />
+							</STOP>
+							<STOP code="1:TervkPal#21358.109" x="3435022.0" y="6909691.0"
+								id="272">
+								<ARRIVAL date="20111012" time="1227" />
+								<DEPARTURE date="20111012" time="1227" />
+								<NAME lang="1" val="Terveyskeskus 2" />
+								<NAME lang="2" val="Hälsovårdscentral 2" />
+								<NAME lang="3" val="Health center 2" />
+								<XTRA name="city_id" val="179" />
+							</STOP>
+							<STOP code="1:Pappilv#21359.1099" x="3434789.0" y="6910023.0"
+								id="1950">
+								<ARRIVAL date="20111012" time="1228" />
+								<DEPARTURE date="20111012" time="1228" />
+								<NAME lang="1" val="Pappilanvuori 2" />
+								<XTRA name="city_id" val="179" />
+							</STOP>
+							<STOP code="1:Pappilr#21360.1099" x="3434681.0" y="6910245.0"
+								id="1121" ord="47">
+								<ARRIVAL date="20111012" time="1228" />
+								<DEPARTURE date="20111012" time="1228" />
+								<NAME lang="1" val="Palokka Pappilanrinne 2" />
+								<XTRA name="city_id" val="179" />
+							</STOP>
+						</LINE>
+						<WALK>
+							<LENGTH time="1.514" dist="113.150" />
+							<STOP code="1:Pappilr#21360.1099" x="3434681.0" y="6910245.0"
+								id="1121">
+								<ARRIVAL date="20111012" time="1228" />
+								<DEPARTURE date="20111012" time="1228" />
+								<NAME lang="1" val="Palokka Pappilanrinne 2" />
+								<XTRA name="city_id" val="179" />
+							</STOP>
+							<MAPLOC x="3434688.0" y="6910221.8" type="12131">
+								<ARRIVAL date="20111012" time="1228" />
+								<DEPARTURE date="20111012" time="1229" />
+								<NAME lang="1" val="Pappilanvuorentie" />
+							</MAPLOC>
+							<MAPLOC x="3434675.4" y="6910215.3" type="12122">
+								<ARRIVAL date="20111012" time="1228" />
+								<DEPARTURE date="20111012" time="1229" />
+								<NAME lang="1" val="Ritopohjantie" />
+							</MAPLOC>
+							<POINT uid="end" x="3434703.0" y="6910153.0">
+								<ARRIVAL date="20111012" time="1229" />
+								<DEPARTURE date="20111012" time="1230" />
+							</POINT>
+						</WALK>
+						<POINT uid="end" x="3434703.0" y="6910153.0">
+							<ARRIVAL date="20111012" time="1229" />
+							<DEPARTURE date="20111012" time="1230" />
+						</POINT>
+					</ROUTE>
+				</MTRXML>
+			</gui_objects>
+		</route_response>
+	</ajax_response_object>
+</navici_response>

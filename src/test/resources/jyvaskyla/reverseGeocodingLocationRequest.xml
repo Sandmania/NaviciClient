@@ -1,0 +1,6 @@
+<navici_request>
+	<ajax_request_object object_id="5" service="ReverseGeocoding">
+		<address_for_location id="0" x="3429723.876219"
+			y="6903557.074394" language="fi" radius="100" />
+	</ajax_request_object>
+</navici_request>

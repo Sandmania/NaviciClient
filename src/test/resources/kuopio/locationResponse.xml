@@ -1,0 +1,31 @@
+<navici_response>
+	<ajax_response_object object_id="4">
+
+		<Response version="0.95.0001" requestID="0">
+			<LocationResponseList numberOfGeocodedAddresses="1"
+				status="0">
+				<GeocodedAddress locationType="street" locationId="82417">
+					<Point>
+						<pos>3559046.500000 6979492.500000</pos>
+					</Point>
+
+					<BoundingBox>
+						<pos>3558558.250000 6979251.000000</pos>
+
+						<pos>3559491.250000 6979506.000000</pos>
+					</BoundingBox>
+
+					<Address countryCode="FI">
+						<StreetAddress>
+							<Street language="FI" locationId="82417">Keskustie</Street>
+						</StreetAddress>
+
+						<Place locationId="297" type="Municipality">Kuopio</Place>
+					</Address>
+
+					<GeocodeMatchCode matchType="All" accuracy="1.000" />
+				</GeocodedAddress>
+			</LocationResponseList>
+		</Response>
+	</ajax_response_object>
+</navici_response>
