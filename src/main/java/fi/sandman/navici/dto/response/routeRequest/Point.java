@@ -63,7 +63,7 @@ public class Point extends Path {
 		PathPoint pp = new PathPoint(latitude, longitude);
 
 		try {
-			pp = new PathPoint(CoordinateUtils.convertKKJxyToWGS86lalo(pp));
+			pp = new PathPoint(CoordinateUtils.convertKKJxyToWGS84lalo(pp));
 		} catch (CoordinateConversionFailed e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

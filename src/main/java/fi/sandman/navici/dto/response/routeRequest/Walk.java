@@ -58,13 +58,13 @@ public class Walk extends Path {
 			// if POINT = null and stops.size == 2 we are walking from stop to stop
 			if ((points == null || points.size() == 0) && stops != null && stops.size() == 2) {
 				pp = new PathPoint(stops.get(0).getLatitude(), stops.get(0).getLongitude());
-				pp = new PathPoint(CoordinateUtils.convertKKJxyToWGS86lalo(pp));
+				pp = new PathPoint(CoordinateUtils.convertKKJxyToWGS84lalo(pp));
 
 				pathPoints.add(pp);
 
 				pathPoints.addAll(getMapLocPathPoints());
 				pp = new PathPoint(stops.get(1).getLatitude(), stops.get(1).getLongitude());
-				pp = new PathPoint(CoordinateUtils.convertKKJxyToWGS86lalo(pp));
+				pp = new PathPoint(CoordinateUtils.convertKKJxyToWGS84lalo(pp));
 
 				pathPoints.add(pp);
 
@@ -74,14 +74,14 @@ public class Walk extends Path {
 			// from point to point
 			if ((stops == null || stops.size() == 0) && points != null && points.size() == 2) {
 				pp = new PathPoint(points.get(0).getLatitude(), points.get(0).getLongitude());
-				pp = new PathPoint(CoordinateUtils.convertKKJxyToWGS86lalo(pp));
+				pp = new PathPoint(CoordinateUtils.convertKKJxyToWGS84lalo(pp));
 						
 				pathPoints.add(pp);
 
 				pathPoints.addAll(getMapLocPathPoints());
 				
 				pp = new PathPoint(points.get(1).getLatitude(), points.get(1).getLongitude());
-				pp = new PathPoint(CoordinateUtils.convertKKJxyToWGS86lalo(pp));
+				pp = new PathPoint(CoordinateUtils.convertKKJxyToWGS84lalo(pp));
 						
 				pathPoints.add(pp);
 
@@ -91,10 +91,10 @@ public class Walk extends Path {
 			// ok, it wasn't that straight forward
 			if (points != null && stops != null && stops.size() == 1 && points.size() == 1) {
 				pp = new PathPoint(points.get(0).getLatitude(), points.get(0).getLongitude());
-				pp = new PathPoint(CoordinateUtils.convertKKJxyToWGS86lalo(pp));
+				pp = new PathPoint(CoordinateUtils.convertKKJxyToWGS84lalo(pp));
 
 				PathPoint stopPp = new PathPoint(stops.get(0).getLatitude(), stops.get(0).getLongitude());
-				stopPp = new PathPoint(CoordinateUtils.convertKKJxyToWGS86lalo(stopPp));
+				stopPp = new PathPoint(CoordinateUtils.convertKKJxyToWGS84lalo(stopPp));
 				if (points.get(0).getUid().equals("start")) { // starting point..
 					pathPoints.add(pp);
 					pathPoints.addAll(getMapLocPathPoints());
@@ -126,7 +126,7 @@ public class Walk extends Path {
 		for (Maploc ml : mapLocs) {
 			pp = new PathPoint(ml.getLatitude(), ml.getLongitude());
 			try {
-				pp = new PathPoint(CoordinateUtils.convertKKJxyToWGS86lalo(pp));
+				pp = new PathPoint(CoordinateUtils.convertKKJxyToWGS84lalo(pp));
 			} catch (CoordinateConversionFailed e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();

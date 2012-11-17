@@ -274,7 +274,13 @@ public final class NaviciClient {
 		return ajaxRequest;
 	}
 
-	public AjaxRequestObject generateLocationRequest(String searchTerm) {
+	/**
+	 * @deprecated NaviciServer doesn't use this anmore. Use {@link NaviciClient#sendRequest(String)} instead.
+	 * Deprecated
+	 * @param searchTerm
+	 * @return
+	 */
+	@Deprecated public AjaxRequestObject generateLocationRequest(String searchTerm) {
 		Request request = new Request();
 		request.setMethodName("LocationRequest");
 		request.setRequestID(0l);

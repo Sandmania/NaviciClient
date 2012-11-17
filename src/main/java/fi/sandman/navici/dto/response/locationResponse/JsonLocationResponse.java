@@ -16,7 +16,7 @@ import fi.sandman.navici.dto.request.routeRequest.Location;
 		"number":23}]},
 "status":0}
  * 
- * @author sandman
+ * @author Jouni Latvatalo <jouni.latvatalo@gmail.com>
  *
  */
 public class JsonLocationResponse {

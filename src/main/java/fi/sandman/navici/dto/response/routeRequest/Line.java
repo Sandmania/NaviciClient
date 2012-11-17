@@ -63,7 +63,7 @@ public class Line extends Path {
 			pp = new PathPoint(stop.getLatitude(), stop.getLongitude());
 
 			try {
-				pp = new PathPoint(CoordinateUtils.convertKKJxyToWGS86lalo(pp));
+				pp = new PathPoint(CoordinateUtils.convertKKJxyToWGS84lalo(pp));
 			} catch (CoordinateConversionFailed e) {
 				e.printStackTrace();
 			}
