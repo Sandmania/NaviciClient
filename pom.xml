@@ -21,7 +21,34 @@
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-jar-plugin</artifactId>
         <version>2.4</version>
-
+      </plugin>
+      
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-shade-plugin</artifactId>
+        <version>2.0</version>
+        <executions>
+          <execution>
+            <phase>package</phase>
+            <goals>
+              <goal>shade</goal>
+            </goals>
+            <configuration>
+              <artifactSet>
+                  <includes>
+                      <include>*:simple-xml</include>
+                      <include>*:gson</include>
+                      <include>*:CoordinateUtils</include>
+                      <include>*:slf4j*</include>
+                      <include>*:log4j*</include>
+                  </includes>
+              </artifactSet>
+			
+				<finalName>uber-${project.artifactId}-${project.version}</finalName>
+			
+            </configuration>
+          </execution>
+        </executions>
       </plugin>
       
     </plugins>
