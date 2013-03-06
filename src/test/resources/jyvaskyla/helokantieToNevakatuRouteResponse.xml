@@ -1,0 +1,1211 @@
+<navici_response><ajax_response_object object_id="1">CR<route_response id="1" >CR<image_layer_objects><route shape="/opt/karttad/shapes/perdita_17011_121147_1_684_0" xmin="3431580.000" ymin="6901728.000" xmax="3437869.071" ymax="6907908.000" /><route shape="/opt/karttad/shapes/perdita_17011_121147_1_684_1" xmin="3431580.000" ymin="6902759.000" xmax="3437869.071" ymax="6907908.000" /><route shape="/opt/karttad/shapes/perdita_17011_121147_1_684_2" xmin="3431580.000" ymin="6901728.000" xmax="3437869.071" ymax="6907908.000" /><route shape="/opt/karttad/shapes/perdita_17011_121147_1_684_3" xmin="3431580.000" ymin="6902759.000" xmax="3437869.071" ymax="6907908.000" /><route shape="/opt/karttad/shapes/perdita_17011_121147_1_684_4" xmin="3431580.000" ymin="6901728.000" xmax="3437869.071" ymax="6907908.000" /></image_layer_objects><gui_objects><MTRXML version="1.0">
+	<ROUTE from="start" to="end" shapefile="perdita_17011_121147_1_684_0" xmin="3431580.000" ymin="6901728.000" xmax="3437869.071" ymax="6907908.000">
+		<LENGTH time="36.666" dist="11781.524"/>
+		<SERVICE id="1754" code="NT.35745" company_id="1">
+			<NAME lang="1" val="Ajetaan reittiä: Keltinmäentie - Myllyjärventie - Länsi-Päijänteentie - Keskussairaalantie - Hannikaisenkatu - Vaasankatu - Vapaudenkatu - Kalevankatu - Puistokatu - Lohikoskentie - Laukaantie - Kangasvuorentie - Nevakatu - Kangaslammentie."/>
+			<ISA id="2778" code="DEPARTURE"/>
+			<ISA id="2781" code="DEPARTURE.NOTICE"/>
+		</SERVICE>
+		<SERVICE id="2416" code="DT.l" company_id="1">
+			<NAME lang="1" val="paikallisliikenne"/>
+			<NAME lang="2" val="lokatrafik"/>
+			<NAME lang="3" val="local trafic"/>
+			<ISA id="2783" code="UNCLASSIFIED"/>
+		</SERVICE>
+		<POINT uid="start" x="3431636.8" y="6903327.0">
+			<ARRIVAL date="20130211" time="1218"/>
+			<DEPARTURE date="20130211" time="1219"/>
+		</POINT>
+		<WALK>
+			<LENGTH time="2.332" dist="166.246"/>
+			<POINT uid="start" x="3431636.8" y="6903327.0">
+				<ARRIVAL date="20130211" time="1218"/>
+				<DEPARTURE date="20130211" time="1219"/>
+			</POINT>
+			<MAPLOC x="3431603.0" y="6903341.9" type="12122">
+				<ARRIVAL date="20130211" time="1219"/>
+				<DEPARTURE date="20130211" time="1220"/>
+				<NAME lang="1" val="Keltinmäentie"/>
+			</MAPLOC>
+			<MAPLOC x="3431620.9" y="6903383.5" type="12131">
+				<ARRIVAL date="20130211" time="1219"/>
+				<DEPARTURE date="20130211" time="1220"/>
+				<NAME lang="1" val="Sienitie"/>
+			</MAPLOC>
+			<MAPLOC x="3431611.6" y="6903387.6" type="12314">
+				<ARRIVAL date="20130211" time="1219"/>
+				<DEPARTURE date="20130211" time="1220"/>
+			</MAPLOC>
+			<STOP code="1:Keltkoul#21113.105" x="3431580.0" y="6903324.0" id="1878">
+				<ARRIVAL date="20130211" time="1221"/>
+				<DEPARTURE date="20130211" time="1221"/>
+				<NAME lang="1" val="Keltinmäen koulu 1"/>
+				<NAME lang="2" val="Keltinmäki skolan 1"/>
+				<NAME lang="3" val="Keltinmäki school 1"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+		</WALK>
+		<LINE id="283" code="12" type="2" mobility="0">
+			<SREF id="1754" from="1" to="33"/>
+			<SREF id="2416" from="1" to="33"/>
+			<LENGTH time="37.000" dist="11590.440"/>
+			<STOP code="1:Keltkoul#21113.105" x="3431580.0" y="6903324.0" id="1878" ord="4">
+				<ARRIVAL date="20130211" time="1221"/>
+				<DEPARTURE date="20130211" time="1221"/>
+				<NAME lang="1" val="Keltinmäen koulu 1"/>
+				<NAME lang="2" val="Keltinmäki skolan 1"/>
+				<NAME lang="3" val="Keltinmäki school 1"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Kultalak#21112.105" x="3431743.0" y="6903016.0" id="717">
+				<ARRIVAL date="20130211" time="1223"/>
+				<DEPARTURE date="20130211" time="1223"/>
+				<NAME lang="1" val="Kultalakintie 1"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Tuulimt#21111.1052" x="3432460.0" y="6902467.0" id="248">
+				<ARRIVAL date="20130211" time="1225"/>
+				<DEPARTURE date="20130211" time="1225"/>
+				<NAME lang="1" val="Tuulimyllyntie 1"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Myllyp#21110.10523" x="3432684.0" y="6902325.0" id="239">
+				<ARRIVAL date="20130211" time="1226"/>
+				<DEPARTURE date="20130211" time="1226"/>
+				<NAME lang="1" val="Myllypolku 1"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Roninmä#21109.1052" x="3432898.0" y="6901935.0" id="1069">
+				<ARRIVAL date="20130211" time="1227"/>
+				<DEPARTURE date="20130211" time="1227"/>
+				<NAME lang="1" val="Roninmäki 1"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Teivaal#21108.1051" x="3433060.0" y="6901728.0" id="1862">
+				<ARRIVAL date="20130211" time="1228"/>
+				<DEPARTURE date="20130211" time="1228"/>
+				<NAME lang="1" val="Teivaalantie 1"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Keljkesk#21117.105" x="3433522.0" y="6901897.0" id="362">
+				<ARRIVAL date="20130211" time="1230"/>
+				<DEPARTURE date="20130211" time="1230"/>
+				<NAME lang="1" val="Keljonkeskus 1"/>
+				<NAME lang="2" val="Keljo Supermarkets 1"/>
+				<NAME lang="3" val="Keljo Supermarkets 1"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Myllyjth#2493.1051" x="3433337.0" y="6901757.0" id="2083">
+				<ARRIVAL date="20130211" time="1231"/>
+				<DEPARTURE date="20130211" time="1231"/>
+				<NAME lang="1" val="Tervala 1"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Tarham#21106.10516" x="3433558.0" y="6902454.0" id="1701">
+				<ARRIVAL date="20130211" time="1232"/>
+				<DEPARTURE date="20130211" time="1232"/>
+				<NAME lang="1" val="Tarhamäki 1"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Keljk#21104.10513" x="3433594.0" y="6902839.0" id="1401">
+				<ARRIVAL date="20130211" time="1233"/>
+				<DEPARTURE date="20130211" time="1233"/>
+				<NAME lang="1" val="Keljonkatu 1"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Purok#21094.10512" x="3433652.0" y="6903388.0" id="1667">
+				<ARRIVAL date="20130211" time="1233"/>
+				<DEPARTURE date="20130211" time="1233"/>
+				<NAME lang="1" val="Purokatu 1"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Jyvyliop#2478.1108" x="3434140.0" y="6903809.0" id="566">
+				<ARRIVAL date="20130211" time="1234"/>
+				<DEPARTURE date="20130211" time="1234"/>
+				<NAME lang="1" val="Yliopisto 1"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Älylä#20857.10481" x="3434615.0" y="6903872.0" id="293">
+				<ARRIVAL date="20130211" time="1235"/>
+				<DEPARTURE date="20130211" time="1235"/>
+				<NAME lang="1" val="Älylä"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:N/A#20843.10510" x="3434746.0" y="6904179.0" id="987">
+				<ARRIVAL date="20130211" time="1236"/>
+				<DEPARTURE date="20130211" time="1236"/>
+				<NAME lang="1" val="Kirjasto 5"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Keskusta#20945.105" x="3435136.0" y="6904588.0" id="815">
+				<ARRIVAL date="20130211" time="1237"/>
+				<DEPARTURE date="20130211" time="1240"/>
+				<NAME lang="1" val="Jyväskylä Keskusta 3"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:N/A#20901.10453" x="3435391.0" y="6904854.0" id="577">
+				<ARRIVAL date="20130211" time="1241"/>
+				<DEPARTURE date="20130211" time="1241"/>
+				<NAME lang="1" val="Urhonkatu 4"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Puistkou#21343.109" x="3435223.0" y="6905150.0" id="236">
+				<ARRIVAL date="20130211" time="1244"/>
+				<DEPARTURE date="20130211" time="1244"/>
+				<NAME lang="1" val="Puistokoulu 2"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:VanhHaut#21344.109" x="3435202.0" y="6905505.0" id="1249">
+				<ARRIVAL date="20130211" time="1245"/>
+				<DEPARTURE date="20130211" time="1245"/>
+				<NAME lang="1" val="Vanha hautausmaa 2"/>
+				<NAME lang="2" val="Gammal gravgård 2"/>
+				<NAME lang="3" val="Old cemetery 2"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:N/A#20899.10502" x="3435221.0" y="6905885.0" id="84">
+				<ARRIVAL date="20130211" time="1247"/>
+				<DEPARTURE date="20130211" time="1247"/>
+				<NAME lang="1" val="Kunnantalo 2"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Niskakj#21103.1050" x="3435399.0" y="6906195.0" id="1936">
+				<ARRIVAL date="20130211" time="1248"/>
+				<DEPARTURE date="20130211" time="1248"/>
+				<NAME lang="1" val="Niskakuja 2"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Lohital#21102.1049" x="3435605.0" y="6906400.0" id="799">
+				<ARRIVAL date="20130211" time="1249"/>
+				<DEPARTURE date="20130211" time="1249"/>
+				<NAME lang="1" val="Lohitalot 2"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:N/A#21101.10497" x="3436134.0" y="6907040.0" id="469">
+				<ARRIVAL date="20130211" time="1250"/>
+				<DEPARTURE date="20130211" time="1250"/>
+				<NAME lang="1" val="Lahjaharjun hautausmaa 2"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Seppälth#21100.104" x="3436744.0" y="6907456.0" id="459">
+				<ARRIVAL date="20130211" time="1251"/>
+				<DEPARTURE date="20130211" time="1251"/>
+				<NAME lang="1" val="Seppälän th 2"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Sorast#21099.10493" x="3437239.0" y="6907886.0" id="1909">
+				<ARRIVAL date="20130211" time="1252"/>
+				<DEPARTURE date="20130211" time="1252"/>
+				<NAME lang="1" val="Sorastajantie 2"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Arela#2471.10490" x="3437289.0" y="6907904.0" id="1672">
+				<ARRIVAL date="20130211" time="1253"/>
+				<DEPARTURE date="20130211" time="1253"/>
+				<NAME lang="1" val="Arela 2"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Nevak#21098.10489" x="3437868.0" y="6907908.0" id="710" ord="29">
+				<ARRIVAL date="20130211" time="1255"/>
+				<DEPARTURE date="20130211" time="1255"/>
+				<NAME lang="1" val="Nevakatu 2"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+		</LINE>
+		<WALK>
+			<LENGTH time="0.334" dist="24.838"/>
+			<STOP code="1:Nevak#21098.10489" x="3437868.0" y="6907908.0" id="710">
+				<ARRIVAL date="20130211" time="1255"/>
+				<DEPARTURE date="20130211" time="1255"/>
+				<NAME lang="1" val="Nevakatu 2"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<POINT uid="end" x="3437855.0" y="6907888.5">
+				<ARRIVAL date="20130211" time="1255"/>
+				<DEPARTURE date="20130211" time="1256"/>
+			</POINT>
+		</WALK>
+		<POINT uid="end" x="3437855.0" y="6907888.5">
+			<ARRIVAL date="20130211" time="1255"/>
+			<DEPARTURE date="20130211" time="1256"/>
+		</POINT>
+	</ROUTE>
+	<ROUTE from="start" to="end" shapefile="perdita_17011_121147_1_684_1" xmin="3431580.000" ymin="6902759.000" xmax="3437869.071" ymax="6907908.000">
+		<LENGTH time="33.666" dist="9963.695"/>
+		<SERVICE id="2289" code="NT.37479" company_id="1">
+			<NAME lang="1" val="Ajetaan reittiä: Mustalammentie - Mäyrämäentie - Keltinmäentie - Ronsuntaipaleentie - Länsiväylä -  Keskussairaalantie - Rautpohjankatu - Voionmaankatu - Vapaudenkatu - Kalevankatu - Yliopistonkatu - Väinönkatu - Sepänkatu - Rajakatu - Taulumäentie - Lahjaharjuntie - Tyyppäläntie - Ritopohjantie - Heikkilä - Matinmäentie - Lehtoniemen th."/>
+			<NAME lang="2" val="Kör rute: Mustalammentie - Mäyrämäentie - Keltinmäentie - Ronsuntaipaleentie - Länsiväylä -  Keskussairaalantie - Rautpohjankatu - Voionmaankatu - Vapaudenkatu - Väinönkatu - Sepänkatu  Rajakatu - Taulumäentie - Lahjaharjuntie - Tyyppäläntie - Ritopohjantie - Heikkilä - Matinmäentie - Lehtoniemen th."/>
+			<NAME lang="3" val="Route: Mustalammentie - Mäyrämäentie - Keltinmäentie - Ronsuntaipaleentie - Länsiväylä -  Keskussairaalantie - Rautpohjankatu - Voionmaankatu - Vapaudenkatu - Väinönkatu - Sepänkatu  Rajakatu - Taulumäentie - Lahjaharjuntie - Tyyppäläntie - Ritopohjantie - Heikkilä - Matinmäentie - Lehtoniemen th."/>
+			<ISA id="2778" code="DEPARTURE"/>
+			<ISA id="2781" code="DEPARTURE.NOTICE"/>
+		</SERVICE>
+		<SERVICE id="2416" code="DT.l" company_id="1">
+			<NAME lang="1" val="paikallisliikenne"/>
+			<NAME lang="2" val="lokatrafik"/>
+			<NAME lang="3" val="local trafic"/>
+			<ISA id="2783" code="UNCLASSIFIED"/>
+		</SERVICE>
+		<SERVICE id="2428" code="NT.36920" company_id="1">
+			<NAME lang="1" val="Ajetaan reittiä: Palokankeskus - Ruokkentie  Laajavuorentie  Vesangantie - Voionmaankatu  Vaasankatu  Vapaudenkatu  Tourulantie  Seppäläntie  Ahjokatu  Kangasvuorentie - Nevakatu  Suluntie."/>
+			<NAME lang="2" val="Kör rute: Palokankeskus - Ruokkentie  Laajavuorentie  Vesangantie - Voionmaankatu  Vaasankatu  Vapaudenkatu  Tourulantie  Seppäläntie  Ahjokatu  Kangasvuorentie - Nevakatu  Suluntie."/>
+			<NAME lang="3" val="Route: Palokankeskus - Ruokkentie  Laajavuorentie  Vesangantie - Voionmaankatu  Vaasankatu  Vapaudenkatu  Tourulantie  Seppäläntie  Ahjokatu  Kangasvuorentie - Nevakatu  Suluntie."/>
+			<ISA id="2778" code="DEPARTURE"/>
+			<ISA id="2781" code="DEPARTURE.NOTICE"/>
+		</SERVICE>
+		<POINT uid="start" x="3431636.8" y="6903327.0">
+			<ARRIVAL date="20130211" time="1228"/>
+			<DEPARTURE date="20130211" time="1229"/>
+		</POINT>
+		<WALK>
+			<LENGTH time="2.332" dist="166.246"/>
+			<POINT uid="start" x="3431636.8" y="6903327.0">
+				<ARRIVAL date="20130211" time="1228"/>
+				<DEPARTURE date="20130211" time="1229"/>
+			</POINT>
+			<MAPLOC x="3431603.0" y="6903341.9" type="12122">
+				<ARRIVAL date="20130211" time="1229"/>
+				<DEPARTURE date="20130211" time="1230"/>
+				<NAME lang="1" val="Keltinmäentie"/>
+			</MAPLOC>
+			<MAPLOC x="3431620.9" y="6903383.5" type="12131">
+				<ARRIVAL date="20130211" time="1229"/>
+				<DEPARTURE date="20130211" time="1230"/>
+				<NAME lang="1" val="Sienitie"/>
+			</MAPLOC>
+			<MAPLOC x="3431611.6" y="6903387.6" type="12314">
+				<ARRIVAL date="20130211" time="1229"/>
+				<DEPARTURE date="20130211" time="1230"/>
+			</MAPLOC>
+			<STOP code="1:Keltkoul#21113.105" x="3431580.0" y="6903324.0" id="1878">
+				<ARRIVAL date="20130211" time="1231"/>
+				<DEPARTURE date="20130211" time="1231"/>
+				<NAME lang="1" val="Keltinmäen koulu 1"/>
+				<NAME lang="2" val="Keltinmäki skolan 1"/>
+				<NAME lang="3" val="Keltinmäki school 1"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+		</WALK>
+		<LINE id="79" code="27" type="1" mobility="0">
+			<SREF id="2289" from="1" to="58"/>
+			<SREF id="2416" from="1" to="58"/>
+			<LENGTH time="14.000" dist="5100.728"/>
+			<STOP code="1:Keltkoul#21113.105" x="3431580.0" y="6903324.0" id="1878" ord="11">
+				<ARRIVAL date="20130211" time="1231"/>
+				<DEPARTURE date="20130211" time="1231"/>
+				<NAME lang="1" val="Keltinmäen koulu 1"/>
+				<NAME lang="2" val="Keltinmäki skolan 1"/>
+				<NAME lang="3" val="Keltinmäki school 1"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Kultalak#21112.105" x="3431743.0" y="6903016.0" id="717">
+				<ARRIVAL date="20130211" time="1232"/>
+				<DEPARTURE date="20130211" time="1232"/>
+				<NAME lang="1" val="Kultalakintie 1"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Keltsilt#21140.105" x="3432203.0" y="6902759.0" id="57">
+				<ARRIVAL date="20130211" time="1233"/>
+				<DEPARTURE date="20130211" time="1233"/>
+				<NAME lang="1" val="Keltinsilta 1"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Petvedt#21133.1056" x="3432376.0" y="6903305.0" id="258">
+				<ARRIVAL date="20130211" time="1234"/>
+				<DEPARTURE date="20130211" time="1234"/>
+				<NAME lang="1" val="Petäjävedentie 1"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Pajat#21132.10567" x="3432577.0" y="6903463.0" id="102">
+				<ARRIVAL date="20130211" time="1235"/>
+				<DEPARTURE date="20130211" time="1235"/>
+				<NAME lang="1" val="Pajatie 1"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Kyllö#20939.10323" x="3433036.0" y="6903561.0" id="1625">
+				<ARRIVAL date="20130211" time="1236"/>
+				<DEPARTURE date="20130211" time="1236"/>
+				<NAME lang="1" val="Kyllö 1"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Kesksair#20940.103" x="3433138.0" y="6903462.0" id="1781">
+				<ARRIVAL date="20130211" time="1237"/>
+				<DEPARTURE date="20130211" time="1237"/>
+				<NAME lang="1" val="Keskussairaala 1"/>
+				<NAME lang="2" val="Centralsjukhuset i Jyväskylä"/>
+				<NAME lang="3" val="City hospital"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Valimo#20941.10329" x="3433543.0" y="6903746.0" id="603">
+				<ARRIVAL date="20130211" time="1238"/>
+				<DEPARTURE date="20130211" time="1238"/>
+				<NAME lang="1" val="Valimo 11"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Rautpohj#2495.1033" x="3433547.0" y="6904091.0" id="325">
+				<ARRIVAL date="20130211" time="1239"/>
+				<DEPARTURE date="20130211" time="1239"/>
+				<NAME lang="1" val="Rautpohja 1"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Jäähalli#20942.103" x="3433678.0" y="6904224.0" id="374">
+				<ARRIVAL date="20130211" time="1239"/>
+				<DEPARTURE date="20130211" time="1239"/>
+				<NAME lang="1" val="Jäähalli 1"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Cygkoul#20943.1033" x="3434013.0" y="6904445.0" id="1100">
+				<ARRIVAL date="20130211" time="1240"/>
+				<DEPARTURE date="20130211" time="1240"/>
+				<NAME lang="1" val="Cygnaeuksen koulu 1"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Pitkäk#20944.10342" x="3434296.0" y="6904397.0" id="309">
+				<ARRIVAL date="20130211" time="1241"/>
+				<DEPARTURE date="20130211" time="1241"/>
+				<NAME lang="1" val="Pitkäkatu 1"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:N/A#20843.10510" x="3434746.0" y="6904179.0" id="987">
+				<ARRIVAL date="20130211" time="1243"/>
+				<DEPARTURE date="20130211" time="1243"/>
+				<NAME lang="1" val="Kirjasto 5"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Keskusta#20945.110" x="3435154.0" y="6904578.0" id="1350" ord="24">
+				<ARRIVAL date="20130211" time="1245"/>
+				<DEPARTURE date="20130211" time="1245"/>
+				<NAME lang="1" val="Jyväskylä Keskusta 2"/>
+				<NAME lang="2" val="Jyväskylä Centrum 2"/>
+				<NAME lang="3" val="Jyväskylä Center 2"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+		</LINE>
+		<WALK>
+			<LENGTH time="0.360" dist="25.198"/>
+			<STOP code="1:Keskusta#20945.110" x="3435154.0" y="6904578.0" id="1350">
+				<ARRIVAL date="20130211" time="1245"/>
+				<DEPARTURE date="20130211" time="1245"/>
+				<NAME lang="1" val="Jyväskylä Keskusta 2"/>
+				<NAME lang="2" val="Jyväskylä Centrum 2"/>
+				<NAME lang="3" val="Jyväskylä Center 2"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Keskusta#20945.105" x="3435136.0" y="6904588.0" id="815">
+				<ARRIVAL date="20130211" time="1245"/>
+				<DEPARTURE date="20130211" time="1250"/>
+				<NAME lang="1" val="Jyväskylä Keskusta 3"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+		</WALK>
+		<LINE id="556" code="25K" type="2" mobility="0">
+			<SREF id="2416" from="1" to="34"/>
+			<SREF id="2428" from="1" to="34"/>
+			<LENGTH time="12.000" dist="4646.686"/>
+			<STOP code="1:Keskusta#20945.105" x="3435136.0" y="6904588.0" id="815" ord="19">
+				<ARRIVAL date="20130211" time="1245"/>
+				<DEPARTURE date="20130211" time="1250"/>
+				<NAME lang="1" val="Jyväskylä Keskusta 3"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:N/A#20842.10348" x="3435343.0" y="6904784.0" id="281">
+				<ARRIVAL date="20130211" time="1251"/>
+				<DEPARTURE date="20130211" time="1251"/>
+				<NAME lang="1" val="Urhonkatu 2"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:N/A#20841.10351" x="3435671.0" y="6905092.0" id="1096">
+				<ARRIVAL date="20130211" time="1253"/>
+				<DEPARTURE date="20130211" time="1253"/>
+				<NAME lang="1" val="Tourunsilta 2"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Tourula#2503.10352" x="3435826.0" y="6905333.0" id="1056">
+				<ARRIVAL date="20130211" time="1254"/>
+				<DEPARTURE date="20130211" time="1254"/>
+				<NAME lang="1" val="Tourula 2"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:N/A#20838.10859" x="3436453.0" y="6905711.0" id="1439">
+				<ARRIVAL date="20130211" time="1255"/>
+				<DEPARTURE date="20130211" time="1255"/>
+				<NAME lang="1" val="Seppäläntie 2"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Prisma#20837.10857" x="3436714.0" y="6906465.0" id="547">
+				<ARRIVAL date="20130211" time="1257"/>
+				<DEPARTURE date="20130211" time="1257"/>
+				<NAME lang="1" val="Prisma 2"/>
+				<NAME lang="2" val="Prisma 2, Supermarket"/>
+				<NAME lang="3" val="Prisma 2, Supermarket"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Alasink#20836.1085" x="3436831.0" y="6906649.0" id="510">
+				<ARRIVAL date="20130211" time="1258"/>
+				<DEPARTURE date="20130211" time="1258"/>
+				<NAME lang="1" val="Alasinkatu 2"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:N/A#20835.10853" x="3437106.0" y="6906701.0" id="2107">
+				<ARRIVAL date="20130211" time="1259"/>
+				<DEPARTURE date="20130211" time="1259"/>
+				<NAME lang="1" val="Kangasvuori 2"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Huhtas#20834.10851" x="3437826.0" y="6907173.0" id="1522">
+				<ARRIVAL date="20130211" time="1300"/>
+				<DEPARTURE date="20130211" time="1300"/>
+				<NAME lang="1" val="Huhtasuo 2"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Sair#21406.11091" x="3437856.0" y="6907613.0" id="2021">
+				<ARRIVAL date="20130211" time="1301"/>
+				<DEPARTURE date="20130211" time="1301"/>
+				<NAME lang="1" val="Sairaala 2"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Nevak#21098.10489" x="3437868.0" y="6907908.0" id="710" ord="29">
+				<ARRIVAL date="20130211" time="1302"/>
+				<DEPARTURE date="20130211" time="1302"/>
+				<NAME lang="1" val="Nevakatu 2"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+		</LINE>
+		<WALK>
+			<LENGTH time="0.334" dist="24.838"/>
+			<STOP code="1:Nevak#21098.10489" x="3437868.0" y="6907908.0" id="710">
+				<ARRIVAL date="20130211" time="1302"/>
+				<DEPARTURE date="20130211" time="1302"/>
+				<NAME lang="1" val="Nevakatu 2"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<POINT uid="end" x="3437855.0" y="6907888.5">
+				<ARRIVAL date="20130211" time="1302"/>
+				<DEPARTURE date="20130211" time="1303"/>
+			</POINT>
+		</WALK>
+		<POINT uid="end" x="3437855.0" y="6907888.5">
+			<ARRIVAL date="20130211" time="1302"/>
+			<DEPARTURE date="20130211" time="1303"/>
+		</POINT>
+	</ROUTE>
+	<ROUTE from="start" to="end" shapefile="perdita_17011_121147_1_684_2" xmin="3431580.000" ymin="6901728.000" xmax="3437869.071" ymax="6907908.000">
+		<LENGTH time="36.666" dist="11781.524"/>
+		<SERVICE id="1378" code="NT.35746" company_id="1">
+			<NAME lang="1" val="Ajetaan reittiä: Keltinmäentie - Myllyjärventie - Länsi-Päijänteentie - Keskussairaalantie - Hannikaisenkatu - Vaasankatu - Vapaudenkatu - Kalevankatu - Puistokatu - Lohikoskentie - Laukaantie - Kangasvuorentie - Nevakatu - Kangaslammentie."/>
+			<ISA id="2778" code="DEPARTURE"/>
+			<ISA id="2781" code="DEPARTURE.NOTICE"/>
+		</SERVICE>
+		<SERVICE id="2416" code="DT.l" company_id="1">
+			<NAME lang="1" val="paikallisliikenne"/>
+			<NAME lang="2" val="lokatrafik"/>
+			<NAME lang="3" val="local trafic"/>
+			<ISA id="2783" code="UNCLASSIFIED"/>
+		</SERVICE>
+		<POINT uid="start" x="3431636.8" y="6903327.0">
+			<ARRIVAL date="20130211" time="1238"/>
+			<DEPARTURE date="20130211" time="1239"/>
+		</POINT>
+		<WALK>
+			<LENGTH time="2.332" dist="166.246"/>
+			<POINT uid="start" x="3431636.8" y="6903327.0">
+				<ARRIVAL date="20130211" time="1238"/>
+				<DEPARTURE date="20130211" time="1239"/>
+			</POINT>
+			<MAPLOC x="3431603.0" y="6903341.9" type="12122">
+				<ARRIVAL date="20130211" time="1239"/>
+				<DEPARTURE date="20130211" time="1240"/>
+				<NAME lang="1" val="Keltinmäentie"/>
+			</MAPLOC>
+			<MAPLOC x="3431620.9" y="6903383.5" type="12131">
+				<ARRIVAL date="20130211" time="1239"/>
+				<DEPARTURE date="20130211" time="1240"/>
+				<NAME lang="1" val="Sienitie"/>
+			</MAPLOC>
+			<MAPLOC x="3431611.6" y="6903387.6" type="12314">
+				<ARRIVAL date="20130211" time="1239"/>
+				<DEPARTURE date="20130211" time="1240"/>
+			</MAPLOC>
+			<STOP code="1:Keltkoul#21113.105" x="3431580.0" y="6903324.0" id="1878">
+				<ARRIVAL date="20130211" time="1241"/>
+				<DEPARTURE date="20130211" time="1241"/>
+				<NAME lang="1" val="Keltinmäen koulu 1"/>
+				<NAME lang="2" val="Keltinmäki skolan 1"/>
+				<NAME lang="3" val="Keltinmäki school 1"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+		</WALK>
+		<LINE id="283" code="12" type="2" mobility="0">
+			<SREF id="1378" from="1" to="33"/>
+			<SREF id="2416" from="1" to="33"/>
+			<LENGTH time="37.000" dist="11590.440"/>
+			<STOP code="1:Keltkoul#21113.105" x="3431580.0" y="6903324.0" id="1878" ord="4">
+				<ARRIVAL date="20130211" time="1241"/>
+				<DEPARTURE date="20130211" time="1241"/>
+				<NAME lang="1" val="Keltinmäen koulu 1"/>
+				<NAME lang="2" val="Keltinmäki skolan 1"/>
+				<NAME lang="3" val="Keltinmäki school 1"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Kultalak#21112.105" x="3431743.0" y="6903016.0" id="717">
+				<ARRIVAL date="20130211" time="1243"/>
+				<DEPARTURE date="20130211" time="1243"/>
+				<NAME lang="1" val="Kultalakintie 1"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Tuulimt#21111.1052" x="3432460.0" y="6902467.0" id="248">
+				<ARRIVAL date="20130211" time="1245"/>
+				<DEPARTURE date="20130211" time="1245"/>
+				<NAME lang="1" val="Tuulimyllyntie 1"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Myllyp#21110.10523" x="3432684.0" y="6902325.0" id="239">
+				<ARRIVAL date="20130211" time="1246"/>
+				<DEPARTURE date="20130211" time="1246"/>
+				<NAME lang="1" val="Myllypolku 1"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Roninmä#21109.1052" x="3432898.0" y="6901935.0" id="1069">
+				<ARRIVAL date="20130211" time="1247"/>
+				<DEPARTURE date="20130211" time="1247"/>
+				<NAME lang="1" val="Roninmäki 1"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Teivaal#21108.1051" x="3433060.0" y="6901728.0" id="1862">
+				<ARRIVAL date="20130211" time="1248"/>
+				<DEPARTURE date="20130211" time="1248"/>
+				<NAME lang="1" val="Teivaalantie 1"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Keljkesk#21117.105" x="3433522.0" y="6901897.0" id="362">
+				<ARRIVAL date="20130211" time="1250"/>
+				<DEPARTURE date="20130211" time="1250"/>
+				<NAME lang="1" val="Keljonkeskus 1"/>
+				<NAME lang="2" val="Keljo Supermarkets 1"/>
+				<NAME lang="3" val="Keljo Supermarkets 1"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Myllyjth#2493.1051" x="3433337.0" y="6901757.0" id="2083">
+				<ARRIVAL date="20130211" time="1251"/>
+				<DEPARTURE date="20130211" time="1251"/>
+				<NAME lang="1" val="Tervala 1"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Tarham#21106.10516" x="3433558.0" y="6902454.0" id="1701">
+				<ARRIVAL date="20130211" time="1252"/>
+				<DEPARTURE date="20130211" time="1252"/>
+				<NAME lang="1" val="Tarhamäki 1"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Keljk#21104.10513" x="3433594.0" y="6902839.0" id="1401">
+				<ARRIVAL date="20130211" time="1253"/>
+				<DEPARTURE date="20130211" time="1253"/>
+				<NAME lang="1" val="Keljonkatu 1"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Purok#21094.10512" x="3433652.0" y="6903388.0" id="1667">
+				<ARRIVAL date="20130211" time="1253"/>
+				<DEPARTURE date="20130211" time="1253"/>
+				<NAME lang="1" val="Purokatu 1"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Jyvyliop#2478.1108" x="3434140.0" y="6903809.0" id="566">
+				<ARRIVAL date="20130211" time="1254"/>
+				<DEPARTURE date="20130211" time="1254"/>
+				<NAME lang="1" val="Yliopisto 1"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Älylä#20857.10481" x="3434615.0" y="6903872.0" id="293">
+				<ARRIVAL date="20130211" time="1255"/>
+				<DEPARTURE date="20130211" time="1255"/>
+				<NAME lang="1" val="Älylä"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:N/A#20843.10510" x="3434746.0" y="6904179.0" id="987">
+				<ARRIVAL date="20130211" time="1256"/>
+				<DEPARTURE date="20130211" time="1256"/>
+				<NAME lang="1" val="Kirjasto 5"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Keskusta#20945.105" x="3435136.0" y="6904588.0" id="815">
+				<ARRIVAL date="20130211" time="1257"/>
+				<DEPARTURE date="20130211" time="1300"/>
+				<NAME lang="1" val="Jyväskylä Keskusta 3"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:N/A#20901.10453" x="3435391.0" y="6904854.0" id="577">
+				<ARRIVAL date="20130211" time="1301"/>
+				<DEPARTURE date="20130211" time="1301"/>
+				<NAME lang="1" val="Urhonkatu 4"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Puistkou#21343.109" x="3435223.0" y="6905150.0" id="236">
+				<ARRIVAL date="20130211" time="1304"/>
+				<DEPARTURE date="20130211" time="1304"/>
+				<NAME lang="1" val="Puistokoulu 2"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:VanhHaut#21344.109" x="3435202.0" y="6905505.0" id="1249">
+				<ARRIVAL date="20130211" time="1305"/>
+				<DEPARTURE date="20130211" time="1305"/>
+				<NAME lang="1" val="Vanha hautausmaa 2"/>
+				<NAME lang="2" val="Gammal gravgård 2"/>
+				<NAME lang="3" val="Old cemetery 2"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:N/A#20899.10502" x="3435221.0" y="6905885.0" id="84">
+				<ARRIVAL date="20130211" time="1307"/>
+				<DEPARTURE date="20130211" time="1307"/>
+				<NAME lang="1" val="Kunnantalo 2"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Niskakj#21103.1050" x="3435399.0" y="6906195.0" id="1936">
+				<ARRIVAL date="20130211" time="1308"/>
+				<DEPARTURE date="20130211" time="1308"/>
+				<NAME lang="1" val="Niskakuja 2"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Lohital#21102.1049" x="3435605.0" y="6906400.0" id="799">
+				<ARRIVAL date="20130211" time="1309"/>
+				<DEPARTURE date="20130211" time="1309"/>
+				<NAME lang="1" val="Lohitalot 2"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:N/A#21101.10497" x="3436134.0" y="6907040.0" id="469">
+				<ARRIVAL date="20130211" time="1310"/>
+				<DEPARTURE date="20130211" time="1310"/>
+				<NAME lang="1" val="Lahjaharjun hautausmaa 2"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Seppälth#21100.104" x="3436744.0" y="6907456.0" id="459">
+				<ARRIVAL date="20130211" time="1311"/>
+				<DEPARTURE date="20130211" time="1311"/>
+				<NAME lang="1" val="Seppälän th 2"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Sorast#21099.10493" x="3437239.0" y="6907886.0" id="1909">
+				<ARRIVAL date="20130211" time="1312"/>
+				<DEPARTURE date="20130211" time="1312"/>
+				<NAME lang="1" val="Sorastajantie 2"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Arela#2471.10490" x="3437289.0" y="6907904.0" id="1672">
+				<ARRIVAL date="20130211" time="1313"/>
+				<DEPARTURE date="20130211" time="1313"/>
+				<NAME lang="1" val="Arela 2"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Nevak#21098.10489" x="3437868.0" y="6907908.0" id="710" ord="29">
+				<ARRIVAL date="20130211" time="1315"/>
+				<DEPARTURE date="20130211" time="1315"/>
+				<NAME lang="1" val="Nevakatu 2"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+		</LINE>
+		<WALK>
+			<LENGTH time="0.334" dist="24.838"/>
+			<STOP code="1:Nevak#21098.10489" x="3437868.0" y="6907908.0" id="710">
+				<ARRIVAL date="20130211" time="1315"/>
+				<DEPARTURE date="20130211" time="1315"/>
+				<NAME lang="1" val="Nevakatu 2"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<POINT uid="end" x="3437855.0" y="6907888.5">
+				<ARRIVAL date="20130211" time="1315"/>
+				<DEPARTURE date="20130211" time="1316"/>
+			</POINT>
+		</WALK>
+		<POINT uid="end" x="3437855.0" y="6907888.5">
+			<ARRIVAL date="20130211" time="1315"/>
+			<DEPARTURE date="20130211" time="1316"/>
+		</POINT>
+	</ROUTE>
+	<ROUTE from="start" to="end" shapefile="perdita_17011_121147_1_684_3" xmin="3431580.000" ymin="6902759.000" xmax="3437869.071" ymax="6907908.000">
+		<LENGTH time="33.666" dist="9963.695"/>
+		<SERVICE id="1075" code="NT.37480" company_id="1">
+			<NAME lang="1" val="Ajetaan reittiä: Mustalammentie - Mäyrämäentie - Keltinmäentie - Ronsuntaipaleentie - Länsiväylä -  Keskussairaalantie - Rautpohjankatu - Voionmaankatu - Vapaudenkatu - Kalevankatu - Yliopistonkatu - Väinönkatu - Sepänkatu - Rajakatu - Taulumäentie - Lahjaharjuntie - Tyyppäläntie - Ritopohjantie - Heikkilä - Matinmäentie - Lehtoniemen th."/>
+			<NAME lang="2" val="Kör rute: Mustalammentie - Mäyrämäentie - Keltinmäentie - Ronsuntaipaleentie - Länsiväylä -  Keskussairaalantie - Rautpohjankatu - Voionmaankatu - Vapaudenkatu - Väinönkatu - Sepänkatu  Rajakatu - Taulumäentie - Lahjaharjuntie - Tyyppäläntie - Ritopohjantie - Heikkilä - Matinmäentie - Lehtoniemen th."/>
+			<NAME lang="3" val="Route: Mustalammentie - Mäyrämäentie - Keltinmäentie - Ronsuntaipaleentie - Länsiväylä -  Keskussairaalantie - Rautpohjankatu - Voionmaankatu - Vapaudenkatu - Väinönkatu - Sepänkatu  Rajakatu - Taulumäentie - Lahjaharjuntie - Tyyppäläntie - Ritopohjantie - Heikkilä - Matinmäentie - Lehtoniemen th."/>
+			<ISA id="2778" code="DEPARTURE"/>
+			<ISA id="2781" code="DEPARTURE.NOTICE"/>
+		</SERVICE>
+		<SERVICE id="2416" code="DT.l" company_id="1">
+			<NAME lang="1" val="paikallisliikenne"/>
+			<NAME lang="2" val="lokatrafik"/>
+			<NAME lang="3" val="local trafic"/>
+			<ISA id="2783" code="UNCLASSIFIED"/>
+		</SERVICE>
+		<SERVICE id="399" code="NT.36922" company_id="1">
+			<NAME lang="1" val="Ajetaan reittiä: Palokankeskus - Ruokkentie  Laajavuorentie  Vesangantie - Voionmaankatu  Vaasankatu  Vapaudenkatu  Tourulantie  Seppäläntie  Ahjokatu  Kangasvuorentie - Nevakatu  Suluntie."/>
+			<NAME lang="2" val="Kör rute: Palokankeskus - Ruokkentie  Laajavuorentie  Vesangantie - Voionmaankatu  Vaasankatu  Vapaudenkatu  Tourulantie  Seppäläntie  Ahjokatu  Kangasvuorentie - Nevakatu  Suluntie."/>
+			<NAME lang="3" val="Route: Palokankeskus - Ruokkentie  Laajavuorentie  Vesangantie - Voionmaankatu  Vaasankatu  Vapaudenkatu  Tourulantie  Seppäläntie  Ahjokatu  Kangasvuorentie - Nevakatu  Suluntie."/>
+			<ISA id="2778" code="DEPARTURE"/>
+			<ISA id="2781" code="DEPARTURE.NOTICE"/>
+		</SERVICE>
+		<POINT uid="start" x="3431636.8" y="6903327.0">
+			<ARRIVAL date="20130211" time="1248"/>
+			<DEPARTURE date="20130211" time="1249"/>
+		</POINT>
+		<WALK>
+			<LENGTH time="2.332" dist="166.246"/>
+			<POINT uid="start" x="3431636.8" y="6903327.0">
+				<ARRIVAL date="20130211" time="1248"/>
+				<DEPARTURE date="20130211" time="1249"/>
+			</POINT>
+			<MAPLOC x="3431603.0" y="6903341.9" type="12122">
+				<ARRIVAL date="20130211" time="1249"/>
+				<DEPARTURE date="20130211" time="1250"/>
+				<NAME lang="1" val="Keltinmäentie"/>
+			</MAPLOC>
+			<MAPLOC x="3431620.9" y="6903383.5" type="12131">
+				<ARRIVAL date="20130211" time="1249"/>
+				<DEPARTURE date="20130211" time="1250"/>
+				<NAME lang="1" val="Sienitie"/>
+			</MAPLOC>
+			<MAPLOC x="3431611.6" y="6903387.6" type="12314">
+				<ARRIVAL date="20130211" time="1249"/>
+				<DEPARTURE date="20130211" time="1250"/>
+			</MAPLOC>
+			<STOP code="1:Keltkoul#21113.105" x="3431580.0" y="6903324.0" id="1878">
+				<ARRIVAL date="20130211" time="1251"/>
+				<DEPARTURE date="20130211" time="1251"/>
+				<NAME lang="1" val="Keltinmäen koulu 1"/>
+				<NAME lang="2" val="Keltinmäki skolan 1"/>
+				<NAME lang="3" val="Keltinmäki school 1"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+		</WALK>
+		<LINE id="79" code="27" type="1" mobility="0">
+			<SREF id="1075" from="1" to="58"/>
+			<SREF id="2416" from="1" to="58"/>
+			<LENGTH time="14.000" dist="5100.728"/>
+			<STOP code="1:Keltkoul#21113.105" x="3431580.0" y="6903324.0" id="1878" ord="11">
+				<ARRIVAL date="20130211" time="1251"/>
+				<DEPARTURE date="20130211" time="1251"/>
+				<NAME lang="1" val="Keltinmäen koulu 1"/>
+				<NAME lang="2" val="Keltinmäki skolan 1"/>
+				<NAME lang="3" val="Keltinmäki school 1"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Kultalak#21112.105" x="3431743.0" y="6903016.0" id="717">
+				<ARRIVAL date="20130211" time="1252"/>
+				<DEPARTURE date="20130211" time="1252"/>
+				<NAME lang="1" val="Kultalakintie 1"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Keltsilt#21140.105" x="3432203.0" y="6902759.0" id="57">
+				<ARRIVAL date="20130211" time="1253"/>
+				<DEPARTURE date="20130211" time="1253"/>
+				<NAME lang="1" val="Keltinsilta 1"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Petvedt#21133.1056" x="3432376.0" y="6903305.0" id="258">
+				<ARRIVAL date="20130211" time="1254"/>
+				<DEPARTURE date="20130211" time="1254"/>
+				<NAME lang="1" val="Petäjävedentie 1"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Pajat#21132.10567" x="3432577.0" y="6903463.0" id="102">
+				<ARRIVAL date="20130211" time="1255"/>
+				<DEPARTURE date="20130211" time="1255"/>
+				<NAME lang="1" val="Pajatie 1"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Kyllö#20939.10323" x="3433036.0" y="6903561.0" id="1625">
+				<ARRIVAL date="20130211" time="1256"/>
+				<DEPARTURE date="20130211" time="1256"/>
+				<NAME lang="1" val="Kyllö 1"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Kesksair#20940.103" x="3433138.0" y="6903462.0" id="1781">
+				<ARRIVAL date="20130211" time="1257"/>
+				<DEPARTURE date="20130211" time="1257"/>
+				<NAME lang="1" val="Keskussairaala 1"/>
+				<NAME lang="2" val="Centralsjukhuset i Jyväskylä"/>
+				<NAME lang="3" val="City hospital"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Valimo#20941.10329" x="3433543.0" y="6903746.0" id="603">
+				<ARRIVAL date="20130211" time="1258"/>
+				<DEPARTURE date="20130211" time="1258"/>
+				<NAME lang="1" val="Valimo 11"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Rautpohj#2495.1033" x="3433547.0" y="6904091.0" id="325">
+				<ARRIVAL date="20130211" time="1259"/>
+				<DEPARTURE date="20130211" time="1259"/>
+				<NAME lang="1" val="Rautpohja 1"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Jäähalli#20942.103" x="3433678.0" y="6904224.0" id="374">
+				<ARRIVAL date="20130211" time="1259"/>
+				<DEPARTURE date="20130211" time="1259"/>
+				<NAME lang="1" val="Jäähalli 1"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Cygkoul#20943.1033" x="3434013.0" y="6904445.0" id="1100">
+				<ARRIVAL date="20130211" time="1300"/>
+				<DEPARTURE date="20130211" time="1300"/>
+				<NAME lang="1" val="Cygnaeuksen koulu 1"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Pitkäk#20944.10342" x="3434296.0" y="6904397.0" id="309">
+				<ARRIVAL date="20130211" time="1301"/>
+				<DEPARTURE date="20130211" time="1301"/>
+				<NAME lang="1" val="Pitkäkatu 1"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:N/A#20843.10510" x="3434746.0" y="6904179.0" id="987">
+				<ARRIVAL date="20130211" time="1303"/>
+				<DEPARTURE date="20130211" time="1303"/>
+				<NAME lang="1" val="Kirjasto 5"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Keskusta#20945.110" x="3435154.0" y="6904578.0" id="1350" ord="24">
+				<ARRIVAL date="20130211" time="1305"/>
+				<DEPARTURE date="20130211" time="1305"/>
+				<NAME lang="1" val="Jyväskylä Keskusta 2"/>
+				<NAME lang="2" val="Jyväskylä Centrum 2"/>
+				<NAME lang="3" val="Jyväskylä Center 2"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+		</LINE>
+		<WALK>
+			<LENGTH time="0.360" dist="25.198"/>
+			<STOP code="1:Keskusta#20945.110" x="3435154.0" y="6904578.0" id="1350">
+				<ARRIVAL date="20130211" time="1305"/>
+				<DEPARTURE date="20130211" time="1305"/>
+				<NAME lang="1" val="Jyväskylä Keskusta 2"/>
+				<NAME lang="2" val="Jyväskylä Centrum 2"/>
+				<NAME lang="3" val="Jyväskylä Center 2"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Keskusta#20945.105" x="3435136.0" y="6904588.0" id="815">
+				<ARRIVAL date="20130211" time="1305"/>
+				<DEPARTURE date="20130211" time="1310"/>
+				<NAME lang="1" val="Jyväskylä Keskusta 3"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+		</WALK>
+		<LINE id="556" code="25K" type="2" mobility="0">
+			<SREF id="399" from="1" to="34"/>
+			<SREF id="2416" from="1" to="34"/>
+			<LENGTH time="12.000" dist="4646.686"/>
+			<STOP code="1:Keskusta#20945.105" x="3435136.0" y="6904588.0" id="815" ord="19">
+				<ARRIVAL date="20130211" time="1305"/>
+				<DEPARTURE date="20130211" time="1310"/>
+				<NAME lang="1" val="Jyväskylä Keskusta 3"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:N/A#20842.10348" x="3435343.0" y="6904784.0" id="281">
+				<ARRIVAL date="20130211" time="1311"/>
+				<DEPARTURE date="20130211" time="1311"/>
+				<NAME lang="1" val="Urhonkatu 2"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:N/A#20841.10351" x="3435671.0" y="6905092.0" id="1096">
+				<ARRIVAL date="20130211" time="1313"/>
+				<DEPARTURE date="20130211" time="1313"/>
+				<NAME lang="1" val="Tourunsilta 2"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Tourula#2503.10352" x="3435826.0" y="6905333.0" id="1056">
+				<ARRIVAL date="20130211" time="1314"/>
+				<DEPARTURE date="20130211" time="1314"/>
+				<NAME lang="1" val="Tourula 2"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:N/A#20838.10859" x="3436453.0" y="6905711.0" id="1439">
+				<ARRIVAL date="20130211" time="1315"/>
+				<DEPARTURE date="20130211" time="1315"/>
+				<NAME lang="1" val="Seppäläntie 2"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Prisma#20837.10857" x="3436714.0" y="6906465.0" id="547">
+				<ARRIVAL date="20130211" time="1317"/>
+				<DEPARTURE date="20130211" time="1317"/>
+				<NAME lang="1" val="Prisma 2"/>
+				<NAME lang="2" val="Prisma 2, Supermarket"/>
+				<NAME lang="3" val="Prisma 2, Supermarket"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Alasink#20836.1085" x="3436831.0" y="6906649.0" id="510">
+				<ARRIVAL date="20130211" time="1318"/>
+				<DEPARTURE date="20130211" time="1318"/>
+				<NAME lang="1" val="Alasinkatu 2"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:N/A#20835.10853" x="3437106.0" y="6906701.0" id="2107">
+				<ARRIVAL date="20130211" time="1319"/>
+				<DEPARTURE date="20130211" time="1319"/>
+				<NAME lang="1" val="Kangasvuori 2"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Huhtas#20834.10851" x="3437826.0" y="6907173.0" id="1522">
+				<ARRIVAL date="20130211" time="1320"/>
+				<DEPARTURE date="20130211" time="1320"/>
+				<NAME lang="1" val="Huhtasuo 2"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Sair#21406.11091" x="3437856.0" y="6907613.0" id="2021">
+				<ARRIVAL date="20130211" time="1321"/>
+				<DEPARTURE date="20130211" time="1321"/>
+				<NAME lang="1" val="Sairaala 2"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Nevak#21098.10489" x="3437868.0" y="6907908.0" id="710" ord="29">
+				<ARRIVAL date="20130211" time="1322"/>
+				<DEPARTURE date="20130211" time="1322"/>
+				<NAME lang="1" val="Nevakatu 2"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+		</LINE>
+		<WALK>
+			<LENGTH time="0.334" dist="24.838"/>
+			<STOP code="1:Nevak#21098.10489" x="3437868.0" y="6907908.0" id="710">
+				<ARRIVAL date="20130211" time="1322"/>
+				<DEPARTURE date="20130211" time="1322"/>
+				<NAME lang="1" val="Nevakatu 2"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<POINT uid="end" x="3437855.0" y="6907888.5">
+				<ARRIVAL date="20130211" time="1322"/>
+				<DEPARTURE date="20130211" time="1323"/>
+			</POINT>
+		</WALK>
+		<POINT uid="end" x="3437855.0" y="6907888.5">
+			<ARRIVAL date="20130211" time="1322"/>
+			<DEPARTURE date="20130211" time="1323"/>
+		</POINT>
+	</ROUTE>
+	<ROUTE from="start" to="end" shapefile="perdita_17011_121147_1_684_4" xmin="3431580.000" ymin="6901728.000" xmax="3437869.071" ymax="6907908.000">
+		<LENGTH time="36.666" dist="11781.524"/>
+		<SERVICE id="1135" code="NT.35747" company_id="1">
+			<NAME lang="1" val="Ajetaan reittiä: Keltinmäentie - Myllyjärventie - Länsi-Päijänteentie - Keskussairaalantie - Hannikaisenkatu - Vaasankatu - Vapaudenkatu - Kalevankatu - Puistokatu - Lohikoskentie - Laukaantie - Kangasvuorentie - Nevakatu - Kangaslammentie."/>
+			<ISA id="2778" code="DEPARTURE"/>
+			<ISA id="2781" code="DEPARTURE.NOTICE"/>
+		</SERVICE>
+		<SERVICE id="2416" code="DT.l" company_id="1">
+			<NAME lang="1" val="paikallisliikenne"/>
+			<NAME lang="2" val="lokatrafik"/>
+			<NAME lang="3" val="local trafic"/>
+			<ISA id="2783" code="UNCLASSIFIED"/>
+		</SERVICE>
+		<POINT uid="start" x="3431636.8" y="6903327.0">
+			<ARRIVAL date="20130211" time="1258"/>
+			<DEPARTURE date="20130211" time="1259"/>
+		</POINT>
+		<WALK>
+			<LENGTH time="2.332" dist="166.246"/>
+			<POINT uid="start" x="3431636.8" y="6903327.0">
+				<ARRIVAL date="20130211" time="1258"/>
+				<DEPARTURE date="20130211" time="1259"/>
+			</POINT>
+			<MAPLOC x="3431603.0" y="6903341.9" type="12122">
+				<ARRIVAL date="20130211" time="1259"/>
+				<DEPARTURE date="20130211" time="1300"/>
+				<NAME lang="1" val="Keltinmäentie"/>
+			</MAPLOC>
+			<MAPLOC x="3431620.9" y="6903383.5" type="12131">
+				<ARRIVAL date="20130211" time="1259"/>
+				<DEPARTURE date="20130211" time="1300"/>
+				<NAME lang="1" val="Sienitie"/>
+			</MAPLOC>
+			<MAPLOC x="3431611.6" y="6903387.6" type="12314">
+				<ARRIVAL date="20130211" time="1259"/>
+				<DEPARTURE date="20130211" time="1300"/>
+			</MAPLOC>
+			<STOP code="1:Keltkoul#21113.105" x="3431580.0" y="6903324.0" id="1878">
+				<ARRIVAL date="20130211" time="1301"/>
+				<DEPARTURE date="20130211" time="1301"/>
+				<NAME lang="1" val="Keltinmäen koulu 1"/>
+				<NAME lang="2" val="Keltinmäki skolan 1"/>
+				<NAME lang="3" val="Keltinmäki school 1"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+		</WALK>
+		<LINE id="283" code="12" type="2" mobility="0">
+			<SREF id="1135" from="1" to="33"/>
+			<SREF id="2416" from="1" to="33"/>
+			<LENGTH time="37.000" dist="11590.440"/>
+			<STOP code="1:Keltkoul#21113.105" x="3431580.0" y="6903324.0" id="1878" ord="4">
+				<ARRIVAL date="20130211" time="1301"/>
+				<DEPARTURE date="20130211" time="1301"/>
+				<NAME lang="1" val="Keltinmäen koulu 1"/>
+				<NAME lang="2" val="Keltinmäki skolan 1"/>
+				<NAME lang="3" val="Keltinmäki school 1"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Kultalak#21112.105" x="3431743.0" y="6903016.0" id="717">
+				<ARRIVAL date="20130211" time="1303"/>
+				<DEPARTURE date="20130211" time="1303"/>
+				<NAME lang="1" val="Kultalakintie 1"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Tuulimt#21111.1052" x="3432460.0" y="6902467.0" id="248">
+				<ARRIVAL date="20130211" time="1305"/>
+				<DEPARTURE date="20130211" time="1305"/>
+				<NAME lang="1" val="Tuulimyllyntie 1"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Myllyp#21110.10523" x="3432684.0" y="6902325.0" id="239">
+				<ARRIVAL date="20130211" time="1306"/>
+				<DEPARTURE date="20130211" time="1306"/>
+				<NAME lang="1" val="Myllypolku 1"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Roninmä#21109.1052" x="3432898.0" y="6901935.0" id="1069">
+				<ARRIVAL date="20130211" time="1307"/>
+				<DEPARTURE date="20130211" time="1307"/>
+				<NAME lang="1" val="Roninmäki 1"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Teivaal#21108.1051" x="3433060.0" y="6901728.0" id="1862">
+				<ARRIVAL date="20130211" time="1308"/>
+				<DEPARTURE date="20130211" time="1308"/>
+				<NAME lang="1" val="Teivaalantie 1"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Keljkesk#21117.105" x="3433522.0" y="6901897.0" id="362">
+				<ARRIVAL date="20130211" time="1310"/>
+				<DEPARTURE date="20130211" time="1310"/>
+				<NAME lang="1" val="Keljonkeskus 1"/>
+				<NAME lang="2" val="Keljo Supermarkets 1"/>
+				<NAME lang="3" val="Keljo Supermarkets 1"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Myllyjth#2493.1051" x="3433337.0" y="6901757.0" id="2083">
+				<ARRIVAL date="20130211" time="1311"/>
+				<DEPARTURE date="20130211" time="1311"/>
+				<NAME lang="1" val="Tervala 1"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Tarham#21106.10516" x="3433558.0" y="6902454.0" id="1701">
+				<ARRIVAL date="20130211" time="1312"/>
+				<DEPARTURE date="20130211" time="1312"/>
+				<NAME lang="1" val="Tarhamäki 1"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Keljk#21104.10513" x="3433594.0" y="6902839.0" id="1401">
+				<ARRIVAL date="20130211" time="1313"/>
+				<DEPARTURE date="20130211" time="1313"/>
+				<NAME lang="1" val="Keljonkatu 1"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Purok#21094.10512" x="3433652.0" y="6903388.0" id="1667">
+				<ARRIVAL date="20130211" time="1313"/>
+				<DEPARTURE date="20130211" time="1313"/>
+				<NAME lang="1" val="Purokatu 1"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Jyvyliop#2478.1108" x="3434140.0" y="6903809.0" id="566">
+				<ARRIVAL date="20130211" time="1314"/>
+				<DEPARTURE date="20130211" time="1314"/>
+				<NAME lang="1" val="Yliopisto 1"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Älylä#20857.10481" x="3434615.0" y="6903872.0" id="293">
+				<ARRIVAL date="20130211" time="1315"/>
+				<DEPARTURE date="20130211" time="1315"/>
+				<NAME lang="1" val="Älylä"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:N/A#20843.10510" x="3434746.0" y="6904179.0" id="987">
+				<ARRIVAL date="20130211" time="1316"/>
+				<DEPARTURE date="20130211" time="1316"/>
+				<NAME lang="1" val="Kirjasto 5"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Keskusta#20945.105" x="3435136.0" y="6904588.0" id="815">
+				<ARRIVAL date="20130211" time="1317"/>
+				<DEPARTURE date="20130211" time="1320"/>
+				<NAME lang="1" val="Jyväskylä Keskusta 3"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:N/A#20901.10453" x="3435391.0" y="6904854.0" id="577">
+				<ARRIVAL date="20130211" time="1321"/>
+				<DEPARTURE date="20130211" time="1321"/>
+				<NAME lang="1" val="Urhonkatu 4"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Puistkou#21343.109" x="3435223.0" y="6905150.0" id="236">
+				<ARRIVAL date="20130211" time="1324"/>
+				<DEPARTURE date="20130211" time="1324"/>
+				<NAME lang="1" val="Puistokoulu 2"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:VanhHaut#21344.109" x="3435202.0" y="6905505.0" id="1249">
+				<ARRIVAL date="20130211" time="1325"/>
+				<DEPARTURE date="20130211" time="1325"/>
+				<NAME lang="1" val="Vanha hautausmaa 2"/>
+				<NAME lang="2" val="Gammal gravgård 2"/>
+				<NAME lang="3" val="Old cemetery 2"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:N/A#20899.10502" x="3435221.0" y="6905885.0" id="84">
+				<ARRIVAL date="20130211" time="1327"/>
+				<DEPARTURE date="20130211" time="1327"/>
+				<NAME lang="1" val="Kunnantalo 2"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Niskakj#21103.1050" x="3435399.0" y="6906195.0" id="1936">
+				<ARRIVAL date="20130211" time="1328"/>
+				<DEPARTURE date="20130211" time="1328"/>
+				<NAME lang="1" val="Niskakuja 2"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Lohital#21102.1049" x="3435605.0" y="6906400.0" id="799">
+				<ARRIVAL date="20130211" time="1329"/>
+				<DEPARTURE date="20130211" time="1329"/>
+				<NAME lang="1" val="Lohitalot 2"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:N/A#21101.10497" x="3436134.0" y="6907040.0" id="469">
+				<ARRIVAL date="20130211" time="1330"/>
+				<DEPARTURE date="20130211" time="1330"/>
+				<NAME lang="1" val="Lahjaharjun hautausmaa 2"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Seppälth#21100.104" x="3436744.0" y="6907456.0" id="459">
+				<ARRIVAL date="20130211" time="1331"/>
+				<DEPARTURE date="20130211" time="1331"/>
+				<NAME lang="1" val="Seppälän th 2"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Sorast#21099.10493" x="3437239.0" y="6907886.0" id="1909">
+				<ARRIVAL date="20130211" time="1332"/>
+				<DEPARTURE date="20130211" time="1332"/>
+				<NAME lang="1" val="Sorastajantie 2"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Arela#2471.10490" x="3437289.0" y="6907904.0" id="1672">
+				<ARRIVAL date="20130211" time="1333"/>
+				<DEPARTURE date="20130211" time="1333"/>
+				<NAME lang="1" val="Arela 2"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<STOP code="1:Nevak#21098.10489" x="3437868.0" y="6907908.0" id="710" ord="29">
+				<ARRIVAL date="20130211" time="1335"/>
+				<DEPARTURE date="20130211" time="1335"/>
+				<NAME lang="1" val="Nevakatu 2"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+		</LINE>
+		<WALK>
+			<LENGTH time="0.334" dist="24.838"/>
+			<STOP code="1:Nevak#21098.10489" x="3437868.0" y="6907908.0" id="710">
+				<ARRIVAL date="20130211" time="1335"/>
+				<DEPARTURE date="20130211" time="1335"/>
+				<NAME lang="1" val="Nevakatu 2"/>
+				<XTRA name="city_id" val="179"/>
+			</STOP>
+			<POINT uid="end" x="3437855.0" y="6907888.5">
+				<ARRIVAL date="20130211" time="1335"/>
+				<DEPARTURE date="20130211" time="1336"/>
+			</POINT>
+		</WALK>
+		<POINT uid="end" x="3437855.0" y="6907888.5">
+			<ARRIVAL date="20130211" time="1335"/>
+			<DEPARTURE date="20130211" time="1336"/>
+		</POINT>
+	</ROUTE>
+</MTRXML></gui_objects></route_response>CR</ajax_response_object>CR</navici_response>
